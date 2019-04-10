@@ -33,25 +33,24 @@ namespace Nocturnalis
 
             int hourOfDay = GenLocalDate.HourOfDay(pawn);
 
-            TimeAssignmentDef timeAssignmentDef = hourOfDay >= modExt.napTime[modExt.sleepingHabit].First && hourOfDay <= modExt.napTime[modExt.sleepingHabit].Second ? TimeAssignmentDefOf.Anything : TimeAssignmentDefOf.Sleep;
+            bool shouldSleep = hourOfDay >= modExt.napTime[modExt.sleepingHabit].First
+                            && hourOfDay <= modExt.napTime[modExt.sleepingHabit].Second
+                            ? false
+                            : true;
 
             float curLevel = pawn.needs.rest.CurLevel;
 
-            if (timeAssignmentDef == TimeAssignmentDefOf.Anything)
+            if (!shouldSleep)
             {
-                if (curLevel < 0.3f)
-                    __result = 8f;
+                __result = curLevel < 0.3f ? 8f : 0f;
 
-                __result = 0f;
                 return false;
             }
 
-            if (timeAssignmentDef == TimeAssignmentDefOf.Sleep)
+            if (shouldSleep)
             {
-                if (curLevel < RestUtility.FallAsleepMaxLevel(pawn))
-                    __result = 8f;
+                __result = curLevel < RestUtility.FallAsleepMaxLevel(pawn) ? 8f : 0f;
 
-                __result = 0f;
                 return false;
             }
 
