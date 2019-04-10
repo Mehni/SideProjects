@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef>
+		<defName>Fishing_fast_Fish</defName>
+		<label>Fishing fish fast.</label>
+		<description>Fishing a fish fast. Lower chance to catch a fish than normal</description>
+		<jobString>Fishing.</jobString>
+		<workAmount>1800</workAmount>
+		<workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Paste_bait_Category</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Paste_bait_common</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Paste_bait_common</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<recipeUsers>
+			<li>TOBE_FishingSpot</li>
+		</recipeUsers>
+		<modExtensions>
+			<li Class="TOBE_Fishing.RecipeOptions">
+				<successChance>0.5</successChance>
+				<!-- from 0 to 1, where 1 is 100% -->
+				<increasedFishQuality>-1</increasedFishQuality>
+				<!-- should be less than amount of fish qualities. Can be negative too. -->
+			</li>
+		</modExtensions>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>Fishing_Basic_Fish</defName>
+		<label>Fishing fish with comman paste bait.</label>
+		<description>Fishing a fish.</description>
+		<jobString>Fishing.</jobString>
+		<workAmount>3500</workAmount>
+		<workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Paste_bait_common</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Paste_bait_common</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Paste_bait_common</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<recipeUsers>
+			<li>TOBE_FishingSpot</li>
+		</recipeUsers>
+		<modExtensions>
+			<li Class="TOBE_Fishing.RecipeOptions">
+				<successChance>0.7</successChance>
+				<!-- from 0 to 1, where 1 is 100% -->
+				<increasedFishQuality>-1</increasedFishQuality>
+				<!-- should be less than amount of fish qualities. Can be negative too. -->
+			</li>
+		</modExtensions>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>Fishing_Intermediate_Fish</defName>
+		<label>Fishing fish with fisher's paste bait.</label>
+		<description>Fishing fish with fisher's paste bait.</description>
+		<jobString>Fishing.</jobString>
+		<workAmount>5200</workAmount>
+		<workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Paste_bait_fisher</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Paste_bait_fisher</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Paste_bait_fisher</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<recipeUsers>
+			<li>TOBE_FishingSpot</li>
+		</recipeUsers>
+		<modExtensions>
+			<li Class="TOBE_Fishing.RecipeOptions">
+				<successChance>0.74</successChance>
+				<!-- from 0 to 1, where 1 is 100% -->
+				<increasedFishQuality>-0.5</increasedFishQuality>
+				<!-- should be less than amount of fish qualities. Can be negative too. -->
+			</li>
+		</modExtensions>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>Fishing_Advanced_Fish</defName>
+		<label>Fishing fish with professional paste bait.</label>
+		<description>Fishing fish with fisher's paste bait.</description>
+		<jobString>Fishing.</jobString>
+		<workAmount>9200</workAmount>
+		<workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Paste_bait_professional</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Paste_bait_professional</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Paste_bait_professional</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<recipeUsers>
+			<li>TOBE_FishingSpot</li>
+		</recipeUsers>
+		<modExtensions>
+			<li Class="TOBE_Fishing.RecipeOptions">
+				<successChance>0.72</successChance>
+				<!-- from 0 to 1, where 1 is 100% -->
+				<increasedFishQuality>0.1</increasedFishQuality>
+				<!-- should be less than amount of fish qualities. Can be negative too. -->
+			</li>
+		</modExtensions>
+	</RecipeDef>
+
+</Defs>

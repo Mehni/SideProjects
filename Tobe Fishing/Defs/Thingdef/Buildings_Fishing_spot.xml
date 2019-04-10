@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>TOBE_FishingSpot</defName>
+    <label>Fishing spot</label>
+    <description>A place for fishing.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/CraftingSpot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <terrainAffordanceNeeded>ShallowWater</terrainAffordanceNeeded>
+    <statBases>
+      <WorkToBuild>0</WorkToBuild>
+      <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+    </statBases>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <useHitPoints>false</useHitPoints>
+    <size>(3,3)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>Standable</passability>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <canPlaceOverImpassablePlant>true</canPlaceOverImpassablePlant>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+	<!--
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+	  -->
+      <li>
+        <compClass>CompReportWorkSpeed</compClass>
+      </li>
+    </comps>
+    <designationHotKey>Misc1</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+    </placeWorkers>
+  </ThingDef>
+
+</Defs>

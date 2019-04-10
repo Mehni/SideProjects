@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TOBE_FishingSpot.label>Fishing spot</TOBE_FishingSpot.label>
+  <TOBE_FishingSpot.description>A place for fishing.</TOBE_FishingSpot.description>
+  <TOBE_FishingSpot_Blueprint.label>Fishing spot (blueprint)</TOBE_FishingSpot_Blueprint.label>
+  <TOBE_FishingSpot_Frame.label>Fishing spot (building)</TOBE_FishingSpot_Frame.label>
+  <TOBE_FishingSpot_Frame.description>A place for fishing.</TOBE_FishingSpot_Frame.description>
+
+
+</LanguageData>

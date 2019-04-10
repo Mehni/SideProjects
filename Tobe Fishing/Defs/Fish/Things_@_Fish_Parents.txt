@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="TM_@_#" Abstract="true" ParentName="#">
+    <label>[@] #</label>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>@</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef Name="TM_@_#" Abstract="true" ParentName="#">
+    <label>[@] #</label>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>@</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef Name="TM_@_#" Abstract="true" ParentName="#">
+    <label>[@] #</label>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>@</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef Name="TM_@_#" Abstract="true" ParentName="#">
+    <label>[@] #</label>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>@</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef Name="TM_@_#" Abstract="true" ParentName="#">
+    <label>[@] #</label>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>@</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef Name="TM_@_#" Abstract="true" ParentName="#">
+    <label>[@] #</label>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>@</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef Name="TM_@_#" Abstract="true" ParentName="#">
+    <label>[@] #</label>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>@</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef Name="TM_@_#" Abstract="true" ParentName="#">
+    <label>[@] #</label>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>@</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef Name="TM_@_#" Abstract="true" ParentName="#">
+    <label>[@] #</label>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>@</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

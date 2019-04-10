@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="TM_Fish" ParentName="OrganicProductBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <statBases>
+      <FoodPoisonChanceFixedHuman>0.10</FoodPoisonChanceFixedHuman>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <ingestible>
+      <foodType>Kibble</foodType>
+      <preferability>RawBad</preferability>
+			<tasteThought>AteKibble</tasteThought>
+			<optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>15</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>2</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+  </ThingDef>
+
+<!--D grade fish -->
+
+  <ThingDef Name="Catfish" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/D/Catfish</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Catfish_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Crucian" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/D/Crucian</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Crucian_Category</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef Name="Flounder" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/D/Flounder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Flounder_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Herring" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/D/Herring</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Herring_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Konosirus" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/D/Konosirus</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Konosirus_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Piranha" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/D/Piranha</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Piranha_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+<!-- Grade C -->
+
+  <ThingDef Name="Bass" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/C/Bass</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Bass_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Blackfin_tuna" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/C/Blackfin_tuna</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Blackfin_tuna_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Eel" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/C/Eel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Eel_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Grey_Mullet" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/C/Grey_Mullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Grey_Mullet_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Headfish" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/C/Headfish</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Headfish_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Octopus" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/C/Octopus</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Octopus_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Squid" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/C/Squid</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Squid_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+<!-- GRADE B FISH -->
+
+  <ThingDef Name="Axolotl" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/B/Axolotl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Axolotl_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Koi" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/B/Koi</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Koi_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Puff" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/B/Puff</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Puff_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Snapper" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/B/Snapper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Snapper_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Sturgeon" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/B/Sturgeon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Sturgeon_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="Swordfish" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/B/Swordfish</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Swordfish_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+<!-- S grade -->
+
+  <ThingDef Name="Dragonian_fish" Abstract="true" ParentName="TM_Fish">
+    <graphicData>
+      <texPath>Things/Item/Fish/S/Dragonian_fish</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(3.6,3.6)</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>TM_Dragonian_fish_Category</li>
+    </thingCategories>
+  </ThingDef>
+
+
+
+</Defs>

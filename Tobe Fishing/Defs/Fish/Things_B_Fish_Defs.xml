@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TM_B_Axolotl">
+    <defName>B_CC_Axolotl</defName>
+    <label>Axolotl</label>
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Axolotl>23</Meat_Axolotl>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>B</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>B</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_B_Koi">
+    <defName>B_CC_Koi</defName>
+    <label>Koi</label>
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Koi>23</Meat_Koi>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>B</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>B</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_B_Puff">
+    <defName>B_CC_Puff</defName>
+    <label>Puff</label>
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Puff>23</Meat_Puff>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>B</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>B</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_B_Snapper">
+    <defName>B_CC_Snapper</defName>
+    <label>Snapper</label>
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Snapper>23</Meat_Snapper>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>B</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>B</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_B_Sturgeon">
+    <defName>B_CC_Sturgeon</defName>
+    <label>Sturgeon</label>
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Sturgeon>23</Meat_Sturgeon>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>B</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>B</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_B_Swordfish">
+    <defName>B_CC_Swordfish</defName>
+    <label>Swordfish</label>
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Swordfish>23</Meat_Swordfish>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>B</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>B</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

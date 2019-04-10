@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TM_Fishing_rod_basic.label>Basic fishing rod</TM_Fishing_rod_basic.label>
+  <TM_Fishing_rod_basic.description>A basic fishing rod, it can only catch F ~ C grade fish.</TM_Fishing_rod_basic.description>
+  <TM_Fishing_rod_basic.tools.0.label>handle</TM_Fishing_rod_basic.tools.0.label>
+
+  <TM_Fishing_rod_intermediate.label>intermediate fishing rod</TM_Fishing_rod_intermediate.label>
+  <TM_Fishing_rod_intermediate.description>An intermediate fishing rod, it can only catch D ~ A grade fish.</TM_Fishing_rod_intermediate.description>
+  <TM_Fishing_rod_intermediate.tools.0.label>handle</TM_Fishing_rod_intermediate.tools.0.label>
+
+  <TM_Fishing_rod_advanced.label>advanced fishing rod</TM_Fishing_rod_advanced.label>
+  <TM_Fishing_rod_advanced.description>An advanced fishing rod, it can only catch C ~ S grade fish.</TM_Fishing_rod_advanced.description>
+  <TM_Fishing_rod_advanced.tools.0.label>handle</TM_Fishing_rod_advanced.tools.0.label>
+
+
+</LanguageData>

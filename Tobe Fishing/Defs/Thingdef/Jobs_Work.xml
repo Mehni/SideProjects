@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>TOBE_DoBillWithRod</defName>
+    <driverClass>JobDriver_DoBill</driverClass>
+    <reportString>fishing at TargetA.</reportString>
+    <suspendable>false</suspendable>
+    <alwaysShowWeapon>true</alwaysShowWeapon> <!-- same as regular, but shows fishing rod =) -->
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+</Defs>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef>
+		<defName>ButcherFish</defName>
+		<label>butcher fish</label>
+		<description>Butcher a fish.</description>
+		<workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
+		<jobString>Butchering.</jobString>
+		<workAmount>450</workAmount>
+		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>TM_Fish_Category</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>TM_Fish_Category</li>
+			</categories>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>TM_Fish_Category</li>
+			</categories>
+		</defaultIngredientFilter>
+		<recipeUsers>
+			<li>ButcherSpot</li>
+			<li>TableButcher</li>			
+		</recipeUsers>
+		<specialProducts>
+			<li>Butchery</li>
+		</specialProducts>
+	</RecipeDef>
+
+	<RecipeDef Name="Craft_Paste_bait_base" Abstract="True">
+		<fixedIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>Paste_bait_common</li>
+				<li>Paste_bait_fisher</li>
+				<li>Paste_bait_professional</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Craft_Paste_bait_base">
+    <defName>TM_Craft_Paste_bait_common</defName>
+    <label>Crafting common paste bait.</label>
+    <description>Craft common paste bait.</description>
+    <jobString>Cooking simple meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <workAmount>200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>FoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.1</count>
+      </li>
+    </ingredients>
+		<products>
+			<Paste_bait_common>1</Paste_bait_common>
+		</products>
+    <workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>ButcherSpot</li>
+			<li>TableButcher</li>			
+		</recipeUsers>
+  </RecipeDef>
+
+	<RecipeDef ParentName="Craft_Paste_bait_base">
+    <defName>TM_Craft_Paste_bait_fisher</defName>
+    <label>Crafting fisher's paste bait.</label>
+    <description>Craft fisher's paste bait.</description>
+    <jobString>Cooking simple meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <workAmount>350</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>FoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.15</count>
+      </li>
+    </ingredients>
+		<products>
+			<Paste_bait_fisher>1</Paste_bait_fisher>
+		</products>
+    <workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>ButcherSpot</li>
+			<li>TableButcher</li>			
+		</recipeUsers>
+  </RecipeDef>
+  
+	<RecipeDef ParentName="Craft_Paste_bait_base">
+    <defName>TM_Craft_Paste_bait_professional</defName>
+    <label>Crafting professional paste bait.</label>
+    <description>Craft common paste bait.</description>
+    <jobString>Cooking simple meal.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <workAmount>600</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>FoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.4</count>
+      </li>
+    </ingredients>
+		<products>
+			<Paste_bait_professional>1</Paste_bait_professional>
+		</products>
+    <workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>ButcherSpot</li>
+			<li>TableButcher</li>			
+		</recipeUsers>
+  </RecipeDef>
+  
+
+<!--
+    <comps>
+      <li Class="ExtraButcheringProducts.CompProperties_SpecialButcherChance">
+        <butcherProducts>
+          <li>
+            <thingDef>Gold</thingDef>
+            <count>500</count>
+            <chance>0.6</chance>
+          </li>
+        </butcherProducts>
+      </li>
+    </comps>
+-->
+
+</Defs>

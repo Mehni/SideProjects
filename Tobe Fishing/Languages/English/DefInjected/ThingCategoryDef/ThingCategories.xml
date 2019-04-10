@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Paste_bait_Category.label>Paste bait</Paste_bait_Category.label>
+  <Fishing_rod_Category.label>Fishing rod</Fishing_rod_Category.label>
+  <TM_Fish_Category.label>Fish</TM_Fish_Category.label>
+
+
+  <!-- D grade fish -->
+
+  <TM_Catfish_Category.label>Catfish</TM_Catfish_Category.label>
+  <TM_Crucian_Category.label>Crucian</TM_Crucian_Category.label>
+  <TM_Flounder_Category.label>Flounder</TM_Flounder_Category.label>
+  <TM_Herring_Category.label>Herring</TM_Herring_Category.label>
+  <TM_Konosirus_Category.label>Konosirus</TM_Konosirus_Category.label>
+  <TM_Piranha_Category.label>Piranha</TM_Piranha_Category.label>
+  <TM_Seaweed_Category.label>Seaweed</TM_Seaweed_Category.label>
+
+
+  <!-- C grade -->
+
+  <TM_Bass_Category.label>Bass</TM_Bass_Category.label>
+  <TM_Blackfin_tuna_Category.label>Blackfin_tuna</TM_Blackfin_tuna_Category.label>
+  <TM_Eel_Category.label>Eel</TM_Eel_Category.label>
+  <TM_Grey_Mullet_Category.label>Grey_Mullet</TM_Grey_Mullet_Category.label>
+  <TM_Headfish_Category.label>Headfish</TM_Headfish_Category.label>
+  <TM_Octopus_Category.label>Octopus</TM_Octopus_Category.label>
+  <TM_Squid_Category.label>Squid</TM_Squid_Category.label>
+
+
+  <!-- B grade -->
+
+  <TM_Axolotl_Category.label>Axolotl</TM_Axolotl_Category.label>
+  <TM_Koi_Category.label>Koi</TM_Koi_Category.label>
+  <TM_Puff_Category.label>Puff</TM_Puff_Category.label>
+  <TM_Snapper_Category.label>Snapper</TM_Snapper_Category.label>
+  <TM_Sturgeon_Category.label>Sturgeon</TM_Sturgeon_Category.label>
+  <TM_Swordfish_Category.label>Swordfish</TM_Swordfish_Category.label>
+
+
+  <!-- S grade -->
+
+  <TM_Dragonian_fish_Category.label>Dragonian_fish</TM_Dragonian_fish_Category.label>
+
+
+</LanguageData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+  <WorkGiverDef>
+  <defName>DoBillFishing</defName>
+  <label>Fishing~</label>
+  <giverClass>TOBE_Fishing.WorkGiver_Fish</giverClass>
+  <workType>Hunting</workType>
+  <priorityInType>110</priorityInType>
+    <fixedBillGiverDefs>
+      <li>TOBE_FishingSpot</li>
+    </fixedBillGiverDefs>
+  <verb>Produce fish</verb>
+  <gerund>Fishing</gerund>
+  <requiredCapacities>
+      <li>Manipulation</li>
+  </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
+</Defs>

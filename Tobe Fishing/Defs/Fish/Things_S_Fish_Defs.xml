@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TM_S_Dragonian_fish">
+    <defName>S_CC_Dragonian_fish</defName>
+    <label>Dragonian_fish</label>
+    <!-- <description>S grade Dragonian_fish. And length is 60cm and weight is 3kg. Compare to other same grade Dragonian_fish, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Dragonian_fish>23</Meat_Dragonian_fish>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>S</grade>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

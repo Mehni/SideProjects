@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>Paste_bait_common</defName>
+    <label>Common paste bait</label>
+    <description>Common paste bait. Not expect big fish.</description>
+    <thingCategories>
+      <li>Paste_bait_Category</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Paste_bait/Common_paste_bait</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>0.015</Mass>
+      <Nutrition>0.1</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <foodType>Kibble</foodType>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteKibble</tasteThought>
+      <optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>15</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>Paste_bait_fisher</defName>
+    <label>Fisher's paste bait</label>
+    <description>Fisher's paste bait. It is more effective on fishing than common bait.</description>
+    <thingCategories>
+      <li>Paste_bait_Category</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Paste_bait/BaitRed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>7</MarketValue>
+      <Mass>0.015</Mass>
+      <Nutrition>0.2</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <foodType>Kibble</foodType>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteKibble</tasteThought>
+      <optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>15</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>Paste_bait_professional</defName>
+    <label>Professional paste bait</label>
+    <description>Professional paste bait. If you use it when you fish, you can catch big-fish more easily.</description>
+    <thingCategories>
+      <li>Paste_bait_Category</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Paste_bait/BaitBlack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>20</MarketValue>
+      <Mass>0.015</Mass>
+      <Nutrition>0.4</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <foodType>Kibble</foodType>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteKibble</tasteThought>
+      <optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>15</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+    </comps>
+  </ThingDef>
+
+</Defs>

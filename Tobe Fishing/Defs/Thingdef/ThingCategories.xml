@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+        <defName>Paste_bait_Category</defName>
+        <label>Paste bait</label>
+        <parent>FoodRaw</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>Fishing_rod_Category</defName>
+      <label>Fishing rod</label>
+      <parent>Root</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>TM_Fish_Category</defName>
+        <label>Fish</label>
+        <parent>CorpsesAnimal</parent>
+    </ThingCategoryDef>  
+
+<!-- D grade fish -->
+
+    <ThingCategoryDef>
+        <defName>TM_Catfish_Category</defName>
+        <label>Catfish</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>
+	
+    <ThingCategoryDef>
+        <defName>TM_Crucian_Category</defName>
+        <label>Crucian</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+
+    <ThingCategoryDef>
+        <defName>TM_Flounder_Category</defName>
+        <label>Flounder</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Herring_Category</defName>
+        <label>Herring</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Konosirus_Category</defName>
+        <label>Konosirus</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Piranha_Category</defName>
+        <label>Piranha</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Seaweed_Category</defName>
+        <label>Seaweed</label>
+        <parent>PlantFoodRaw</parent>
+    </ThingCategoryDef>	
+
+<!-- C grade -->
+	
+    <ThingCategoryDef>
+        <defName>TM_Bass_Category</defName>
+        <label>Bass</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Blackfin_tuna_Category</defName>
+        <label>Blackfin_tuna</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Eel_Category</defName>
+        <label>Eel</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Grey_Mullet_Category</defName>
+        <label>Grey_Mullet</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Headfish_Category</defName>
+        <label>Headfish</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Octopus_Category</defName>
+        <label>Octopus</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Squid_Category</defName>
+        <label>Squid</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+
+<!-- B grade -->
+	
+    <ThingCategoryDef>
+        <defName>TM_Axolotl_Category</defName>
+        <label>Axolotl</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Koi_Category</defName>
+        <label>Koi</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Puff_Category</defName>
+        <label>Puff</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+	
+    <ThingCategoryDef>
+        <defName>TM_Snapper_Category</defName>
+        <label>Snapper</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>	
+
+    <ThingCategoryDef>
+        <defName>TM_Sturgeon_Category</defName>
+        <label>Sturgeon</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>TM_Swordfish_Category</defName>
+        <label>Swordfish</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>
+
+<!-- S grade -->
+
+    <ThingCategoryDef>
+        <defName>TM_Dragonian_fish_Category</defName>
+        <label>Dragonian_fish</label>
+        <parent>TM_Fish_Category</parent>
+    </ThingCategoryDef>
+</Defs>

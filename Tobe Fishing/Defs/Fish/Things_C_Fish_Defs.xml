@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TM_C_Bass">
+    <defName>C_CC_Bass</defName>
+    <label>Bass</label>
+    <!-- <description>C grade Bass. And length is 60cm and weight is 3kg. Compare to other same grade Bass, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Bass>23</Meat_Bass>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>C</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>C</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_C_Blackfin_tuna">
+    <defName>C_CC_Blackfin_tuna</defName>
+    <label>Blackfin_tuna</label>
+    <!-- <description>C grade Blackfin_tuna. And length is 60cm and weight is 3kg. Compare to other same grade Blackfin_tuna, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Blackfin_tuna>23</Meat_Blackfin_tuna>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>C</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>C</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_C_Eel">
+    <defName>C_CC_Eel</defName>
+    <label>Eel</label>
+    <!-- <description>C grade Eel. And length is 60cm and weight is 3kg. Compare to other same grade Eel, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Eel>23</Meat_Eel>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>C</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>C</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_C_Grey_Mullet">
+    <defName>C_CC_Grey_Mullet</defName>
+    <label>Grey_Mullet</label>
+    <!-- <description>C grade Grey_Mullet. And length is 60cm and weight is 3kg. Compare to other same grade Grey_Mullet, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Grey_Mullet>23</Meat_Grey_Mullet>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>C</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>C</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_C_Headfish">
+    <defName>C_CC_Headfish</defName>
+    <label>Headfish</label>
+    <!-- <description>C grade Headfish. And length is 60cm and weight is 3kg. Compare to other same grade Headfish, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Headfish>23</Meat_Headfish>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>C</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>C</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_C_Octopus">
+    <defName>C_CC_Octopus</defName>
+    <label>Octopus</label>
+    <!-- <description>C grade Octopus. And length is 60cm and weight is 3kg. Compare to other same grade Octopus, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Octopus>23</Meat_Octopus>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>C</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>C</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_C_Squid">
+    <defName>C_CC_Squid</defName>
+    <label>Squid</label>
+    <!-- <description>C grade Squid. And length is 60cm and weight is 3kg. Compare to other same grade Squid, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.9</Nutrition>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Squid>23</Meat_Squid>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>C</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>C</grade>
+        <biomes>
+          <TemperateForest>10</TemperateForest>
+          <BorealForest>10</BorealForest>
+          <TropicalRainforest>15</TropicalRainforest>
+          <AridShrubland>10</AridShrubland>
+          <Desert>10</Desert>
+          <Tundra>10</Tundra>
+          <TropicalSwamp>10</TropicalSwamp>
+          <TemperateSwamp>10</TemperateSwamp>
+          <ColdBog>10</ColdBog>
+          <ExtremeDesert>10</ExtremeDesert>
+          <IceSheet>10</IceSheet>
+          <SeaIce>10</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TM_D_Catfish">
+    <defName>D_CC_Catfish</defName>
+    <label>Catfish</label>
+    <!-- <description>D grade Catfish. And length is 60cm and weight is 3kg. Compare to other same grade Catfish, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>3.2</Mass>
+      <Nutrition>0.96</Nutrition>
+      <MarketValue>30.6</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Catfish>24</Meat_Catfish>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>D</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>D</grade>
+        <biomes>
+          <TemperateForest>30</TemperateForest>
+          <BorealForest>30</BorealForest>
+          <TropicalRainforest>25</TropicalRainforest>
+          <AridShrubland>20</AridShrubland>
+          <Desert>0</Desert>
+          <Tundra>0</Tundra>
+          <TropicalSwamp>30</TropicalSwamp>
+          <TemperateSwamp>30</TemperateSwamp>
+          <ColdBog>0</ColdBog>
+          <ExtremeDesert>0</ExtremeDesert>
+          <IceSheet>0</IceSheet>
+          <SeaIce>0</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_D_Crucian">
+    <defName>D_CC_Crucian</defName>
+    <label>Crucian</label>
+    <!-- <description>D grade Crucian. And length is 50cm and weight is 3kg. Compare to other same grade Crucian, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>3</Mass>
+      <Nutrition>0.75</Nutrition>
+      <MarketValue>22.5</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Crucian>18</Meat_Crucian>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>D</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>D</grade>
+        <biomes>
+          <TemperateForest>30</TemperateForest>
+          <BorealForest>30</BorealForest>
+          <TropicalRainforest>25</TropicalRainforest>
+          <AridShrubland>20</AridShrubland>
+          <Desert>0</Desert>
+          <Tundra>0</Tundra>
+          <TropicalSwamp>30</TropicalSwamp>
+          <TemperateSwamp>30</TemperateSwamp>
+          <ColdBog>0</ColdBog>
+          <ExtremeDesert>0</ExtremeDesert>
+          <IceSheet>0</IceSheet>
+          <SeaIce>0</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_D_Herring">
+    <defName>D_CC_Herring</defName>
+    <label>Herring</label>
+    <!-- <description>D grade Herring. And length is 56cm and weight is 2.8kg. Compare to other same grade Herring, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>2.8</Mass>
+      <Nutrition>0.78</Nutrition>
+      <MarketValue>22</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Herring>20</Meat_Herring>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>D</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>D</grade>
+        <biomes>
+          <TemperateForest>30</TemperateForest>
+          <BorealForest>30</BorealForest>
+          <TropicalRainforest>25</TropicalRainforest>
+          <AridShrubland>20</AridShrubland>
+          <Desert>0</Desert>
+          <Tundra>0</Tundra>
+          <TropicalSwamp>30</TropicalSwamp>
+          <TemperateSwamp>30</TemperateSwamp>
+          <ColdBog>0</ColdBog>
+          <ExtremeDesert>0</ExtremeDesert>
+          <IceSheet>0</IceSheet>
+          <SeaIce>0</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_D_Flounder">
+    <defName>D_CC_Flounder</defName>
+    <label>Flounder</label>
+    <!-- <description>D grade Flounder. And length is 60cm and weight is 3.6kg. Compare to other same grade Flounder, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>3.6</Mass>
+      <Nutrition>1.08</Nutrition>
+      <MarketValue>38</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Flounder>27</Meat_Flounder>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>D</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>D</grade>
+        <biomes>
+          <TemperateForest>30</TemperateForest>
+          <BorealForest>30</BorealForest>
+          <TropicalRainforest>25</TropicalRainforest>
+          <AridShrubland>20</AridShrubland>
+          <Desert>0</Desert>
+          <Tundra>0</Tundra>
+          <TropicalSwamp>30</TropicalSwamp>
+          <TemperateSwamp>30</TemperateSwamp>
+          <ColdBog>0</ColdBog>
+          <ExtremeDesert>0</ExtremeDesert>
+          <IceSheet>0</IceSheet>
+          <SeaIce>0</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_D_Konosirus">
+    <defName>D_CC_Konosirus</defName>
+    <label>Konosirus</label>
+    <!-- <description>D grade Konosirus. And length is 36cm and weight is 1.8kg. Compare to other same grade Konosirus, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>1.8</Mass>
+      <Nutrition>0.35</Nutrition>
+      <MarketValue>6</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Konosirus>9</Meat_Konosirus>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>D</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>D</grade>
+        <biomes>
+          <TemperateForest>30</TemperateForest>
+          <BorealForest>30</BorealForest>
+          <TropicalRainforest>25</TropicalRainforest>
+          <AridShrubland>20</AridShrubland>
+          <Desert>0</Desert>
+          <Tundra>0</Tundra>
+          <TropicalSwamp>30</TropicalSwamp>
+          <TemperateSwamp>30</TemperateSwamp>
+          <ColdBog>0</ColdBog>
+          <ExtremeDesert>0</ExtremeDesert>
+          <IceSheet>0</IceSheet>
+          <SeaIce>0</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_D_Piranha">
+    <defName>D_CC_Piranha</defName>
+    <label>Piranha</label>
+    <!-- <description>D grade Piranha. And length is 50cm and weight is 3.4kg. Compare to other same grade Piranha, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>3.4</Mass>
+      <Nutrition>0.85</Nutrition>
+      <MarketValue>29</MarketValue>
+    </statBases>
+    <butcherProducts>
+      <Meat_Piranha>22</Meat_Piranha>
+    </butcherProducts>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>D</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>D</grade>
+        <biomes>
+          <TemperateForest>30</TemperateForest>
+          <BorealForest>30</BorealForest>
+          <TropicalRainforest>25</TropicalRainforest>
+          <AridShrubland>20</AridShrubland>
+          <Desert>0</Desert>
+          <Tundra>0</Tundra>
+          <TropicalSwamp>30</TropicalSwamp>
+          <TemperateSwamp>30</TemperateSwamp>
+          <ColdBog>0</ColdBog>
+          <ExtremeDesert>0</ExtremeDesert>
+          <IceSheet>0</IceSheet>
+          <SeaIce>0</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="TM_D_Seaweed">
+    <defName>D_CC_Seaweed</defName>
+    <label>Seaweed</label>
+    <!-- <description>D grade Seaweed. And length is 50cm and weight is 1.0kg. Compare to other same grade Seaweed, It is average weight and average length.</description> -->
+    <statBases>
+      <Mass>1.0</Mass>
+      <Nutrition>0.6</Nutrition>
+      <MarketValue>20</MarketValue>
+    </statBases>
+    <comps>
+      <li Class = "FishGeneration.CompProperties_FishProps">
+        <grade>D</grade>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="TOBE_Fishing.FishProperties">
+        <grade>D</grade>
+        <biomes>
+          <TemperateForest>30</TemperateForest>
+          <BorealForest>30</BorealForest>
+          <TropicalRainforest>25</TropicalRainforest>
+          <AridShrubland>20</AridShrubland>
+          <Desert>0</Desert>
+          <Tundra>0</Tundra>
+          <TropicalSwamp>30</TropicalSwamp>
+          <TemperateSwamp>30</TemperateSwamp>
+          <ColdBog>0</ColdBog>
+          <ExtremeDesert>0</ExtremeDesert>
+          <IceSheet>0</IceSheet>
+          <SeaIce>0</SeaIce>
+        </biomes>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

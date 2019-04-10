@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="TM_meat" Abstract="true" ParentName="ResourceBase">
+    <graphicData>
+      <texPath>Things/Item/Fishmeat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>0.04</Mass>
+      <MaxHitPoints>30</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Nutrition>0.04</Nutrition>
+      <DeteriorationRate>6</DeteriorationRate>
+      <FoodPoisonChanceFixedHuman>0.05</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>2</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>Meat</foodType>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteRawFood</tasteThought>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <ingestEffect>EatMeat</ingestEffect>
+    </ingestible>
+    <thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

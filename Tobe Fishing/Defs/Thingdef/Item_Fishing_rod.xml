@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>TM_Fishing_rod_basic</defName>
+    <label>Basic fishing rod</label>
+    <description>A basic fishing rod, it can only catch F ~ C grade fish.</description>
+    <graphicData>
+      <texPath>Things/Item/Fishing_rod/Fishing_rod</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>100</costStuffCount>
+    <statBases>
+      <WorkToMake>4700</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="TOBE_Fishing.CompProperties_FishingRod">
+        <fishGrade>F~C</fishGrade>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>TM_Fishing_rod_intermediate</defName>
+    <label>intermediate fishing rod</label>
+    <description>An intermediate fishing rod, it can only catch D ~ A grade fish.</description>
+    <graphicData>
+      <texPath>Things/Item/Fishing_rod/Fishing_rod</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>150</costStuffCount>
+    <statBases>
+      <WorkToMake>13052</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="TOBE_Fishing.CompProperties_FishingRod">
+        <fishGrade>D~A</fishGrade>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>TM_Fishing_rod_advanced</defName>
+    <label>advanced fishing rod</label>
+    <description>An advanced fishing rod, it can only catch C ~ S grade fish.</description>
+    <graphicData>
+      <texPath>Things/Item/Fishing_rod/Fishing_rod</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>24200</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="TOBE_Fishing.CompProperties_FishingRod">
+        <fishGrade>C~S</fishGrade>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

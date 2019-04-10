@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOBE_Fishing", "TOBE_Fishing\TOBE_Fishing.csproj", "{3E46C4F9-B61C-451D-8A75-B928AEA1B8D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishGeneration", "FishGeneration\FishGeneration.csproj", "{32007068-38CB-40C7-BA26-FB132825DCB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E46C4F9-B61C-451D-8A75-B928AEA1B8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E46C4F9-B61C-451D-8A75-B928AEA1B8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E46C4F9-B61C-451D-8A75-B928AEA1B8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E46C4F9-B61C-451D-8A75-B928AEA1B8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32007068-38CB-40C7-BA26-FB132825DCB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32007068-38CB-40C7-BA26-FB132825DCB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32007068-38CB-40C7-BA26-FB132825DCB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32007068-38CB-40C7-BA26-FB132825DCB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC82CB71-6CB4-4D4E-9166-098C3B550D79}
+	EndGlobalSection
+EndGlobal
