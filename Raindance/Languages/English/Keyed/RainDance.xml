@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<RainDance>Appease rain gods</RainDance>
+    <FailedDanceChunks>Insert witty text here for a chunk drop.</FailedDanceChunks>
+    <FailedDanceThunder>has been thunderstruck.</FailedDanceThunder>
+    <FailedDanceTornado>Insert witty text here for a tornado.</FailedDanceTornado>
+    <SuccesfullyDanced>appeased the rain gods.</SuccesfullyDanced>
+    <FailedAppeaseGods>failed to please the rain gods.</FailedAppeaseGods>
+
+</LanguageData>

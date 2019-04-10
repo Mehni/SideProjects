@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>RainDance</defName>
+    <driverClass>Raindance.JobDriver_RainDance</driverClass>
+    <reportString>praying for rain.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+
+</Defs>  
