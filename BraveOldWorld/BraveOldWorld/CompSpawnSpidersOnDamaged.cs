@@ -31,8 +31,8 @@ namespace BraveOldWorld
             }
             if (dinfo.Def.harmsHealth)
             {
-                float num = (float)parent.HitPoints - dinfo.Amount;
-                if ((num < (float)parent.MaxHitPoints * 0.98f && dinfo.Instigator?.Faction != null) || num < (float)parent.MaxHitPoints * 0.9f)
+                float num = parent.HitPoints - dinfo.Amount;
+                if (((num < parent.MaxHitPoints * 0.8f || Rand.Bool) && dinfo.Instigator?.Faction != null) || num < parent.MaxHitPoints * 0.7f)
                 {
                     pointsLeft = StorytellerUtility.DefaultParmsNow(IncidentCategoryDefOf.ThreatBig, parent.MapHeld).points;
                     TrySpawnSpiders();
