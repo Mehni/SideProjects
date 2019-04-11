@@ -9,6 +9,14 @@ using Verse;
 
 namespace BraveOldWorld
 {
+    public class CompProperties_Threading : CompProperties_Shearable
+    {
+        public CompProperties_Threading()
+        {
+            compClass = typeof(CompThreading);
+        }
+    }
+
     public class CompThreading : CompShearable
     {
         protected override string SaveKey => "BOW_ShearGrowth";
