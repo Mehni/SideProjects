@@ -32,7 +32,7 @@ namespace BraveOldWorld
             if (dinfo.Def.harmsHealth)
             {
                 float num = (float)parent.HitPoints - dinfo.Amount;
-                if ((num < (float)parent.MaxHitPoints * 0.98f && dinfo.Instigator != null && dinfo.Instigator.Faction != null) || num < (float)parent.MaxHitPoints * 0.9f)
+                if ((num < (float)parent.MaxHitPoints * 0.98f && dinfo.Instigator?.Faction != null) || num < (float)parent.MaxHitPoints * 0.9f)
                 {
                     pointsLeft = StorytellerUtility.DefaultParmsNow(IncidentCategoryDefOf.ThreatBig, parent.MapHeld).points;
                     TrySpawnSpiders();
@@ -50,7 +50,7 @@ namespace BraveOldWorld
             try
             {
                 while (pointsLeft > 0f && (from def in DefDatabase<PawnKindDef>.AllDefs
-                                           where def.RaceProps.body.defName.ToLower() == "TarantulaLike" && def.combatPower <= pointsLeft
+                                           where def.RaceProps.body.defName == "TarantulaLike" && def.combatPower <= pointsLeft
                                            select def).TryRandomElement(out PawnKindDef spooder) && (from cell in GenAdj.CellsAdjacent8Way(parent)
                                                                                                      where CanSpawnSpiderAt(cell)
                                                                                                      select cell).TryRandomElement(out IntVec3 spot))
