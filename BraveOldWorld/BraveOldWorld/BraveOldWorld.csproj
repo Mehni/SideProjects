@@ -53,6 +53,7 @@
     <Compile Include="CompSpawnSpidersOnDamaged.cs" />
     <Compile Include="CompThreading.cs" />
     <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="IngestionOutcomeDoer_GiveOrTakeHediff.cs" />
     <Compile Include="TheBroom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
