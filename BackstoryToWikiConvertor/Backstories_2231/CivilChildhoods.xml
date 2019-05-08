@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+
+  <Backstory>
+    <Title>medieval slave</Title>
+		<titleShort>slave</titleShort>
+		<BaseDesc>[PAWN_nameDef] grew up pulling carts and digging holes on a medieval world. Simple manual labor is [PAWN_possessive] oldest companion - along with the master's lash.\n\n[PAWN_pronoun] didn't learn to read until age nine.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <SkillGains>
+      <li>
+        <key>Plants</key>
+        <value>2</value>
+      </li>
+      <li>
+        <key>Construction</key>
+        <value>2</value>
+      </li>
+      <li>
+        <key>Mining</key>
+        <value>2</value>
+      </li>
+      <li>
+        <key>Intellectual</key>
+        <value>-3</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Slave</li>
+      <li>Raider</li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>medieval lordling</Title>
+		<titleShort>lordling</titleShort>
+		<BaseDesc>[PAWN_nameDef] was a minor noble in an old kingdom on a medieval world. [PAWN_pronoun] grew up in a manor made of stone, served by bowing lowerclassmen.\n\nSuch a life teaches no technical skills and instils a lifelong aversion to manual labor - but [PAWN_nameDef] learned early the ways of social manipulation.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <SkillGains>
+      <li>
+        <key>Social</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Construction</key>
+        <value>-1</value>
+      </li>
+      <li>
+        <key>Mining</key>
+        <value>-1</value>
+      </li>
+      <li>
+        <key>Plants</key>
+        <value>-1</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>urbworld urchin</Title>
+		<titleShort>urchin</titleShort>
+		<BaseDesc>The urbworlds - ancient and deep industrial cityscapes bursting with humanity and poison. [PAWN_nameDef] grew up in the dark, unwanted reaches of such a place. [PAWN_pronoun] had to fight for every scrap of food.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <SkillGains>
+      <li>
+        <key>Melee</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Shooting</key>
+        <value>2</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Slave</li>
+      <li>Raider</li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>vatgrown soldier</Title>
+		<titleShort>vatgrown</titleShort>
+		<BaseDesc>[PAWN_nameDef] wasn't made as a person, but as an instrument of destruction. Grown in a bioweapons facility and taught combat during [PAWN_possessive] accelerated growth, [PAWN_nameDef] still has a proclivity for combat of all kinds and an aversion to human contact.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <SkillGains>
+      <li>
+        <key>Melee</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Shooting</key>
+        <value>4</value>
+      </li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Civil</li>
+      <li>Slave</li>
+      <li>Raider</li>
+    </SpawnCategories>
+    <WorkDisables>
+      <li>Social</li>
+      <li>Caring</li>
+    </WorkDisables>
+  </Backstory>
+
+	<Backstory>
+		<Title>sickly child</Title>
+		<TitleShort>patient</TitleShort>
+		<BaseDesc>As a child, [PAWN_nameDef] suffered from a rare disease. Quarantined in a research hospital, [PAWN_pronoun] had minimal human contact and got little physical exercise. In the sterile hospital environment, however, [PAWN_pronoun] became very familiar with science and medicine.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<SkillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>-2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-2</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>-2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>shelter child</Title>
+		<TitleShort>shelterkid</TitleShort>
+		<BaseDesc>[PAWN_nameDef] grew up in a shelter deep beneath a toxic world. [PAWN_pronoun] received a comprehensive education, but had no opportunity to do physical labour.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<SkillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>-2</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>-2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+			<li>Slave</li>
+			<li>Raider</li>
+		</SpawnCategories>
+	</Backstory>
+
+
+	<Backstory>
+		<Title>industrial orphan</Title>
+		<TitleShort>orphan</TitleShort>
+		<BaseDesc>[PAWN_nameDef] never knew [PAWN_possessive] parents. [PAWN_possessive] earliest memories were of drudgery in the mines and workhouses of [PAWN_possessive] industrial world.\n\nBecause of this, [PAWN_pronoun] never received a proper education.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<SkillGains>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>-2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Trader</li>
+			<li>Slave</li>
+			<li>Raider</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>scout</Title>
+		<TitleShort>scout</TitleShort>
+		<BaseDesc>Born to colonial administrators from a small imperial power, [PAWN_nameDef] was enrolled in a youth program that taught military scouting skills.\n\n[PAWN_pronoun] learned to survive in the wilderness, to obey, and not to ask questions.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>1</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+			<li>Raider</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>frightened child</Title>
+		<TitleShort>scared</TitleShort>
+		<BaseDesc>[PAWN_nameDef] grew up with a laundry list of phobias and neuroses. [PAWN_pronoun] feared, among other things, doctors and foodborne pathogens.\n\nAs a result, [PAWN_pronoun] learned to cook and care for [PAWN_objective]self, but many of [PAWN_possessive] fears dog [PAWN_objective] in adulthood.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Violent</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+			<li>Trader</li>
+		</SpawnCategories>
+	</Backstory>
+
+
+	<Backstory>
+		<Title>caveworld tender</Title>
+		<TitleShort>cave kid</TitleShort>
+		<BaseDesc>[PAWN_nameDef] grew up in cave complex deep beneath the surface of an inhospitable world. [PAWN_pronoun] worked with the other children tending the tribe’s fungus crops.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<SkillGains>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>-3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+			<li>Traveler</li>
+			<li>Raider</li>
+		</SpawnCategories>
+    <forcedTraits>
+      <Undergrounder>0</Undergrounder>
+    </forcedTraits>
+	</Backstory>
+
+	<Backstory>
+		<Title>caveworld tunneler</Title>
+		<TitleShort>tunneler</TitleShort>
+		<BaseDesc>[PAWN_nameDef] worked as a digger in the massive underground cave complex.\n\n[PAWN_pronoun] knows rock so well that [PAWN_pronoun] can almost navigate caves by smell.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Intellectual</li>
+			<li>Crafting</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Construction</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>-2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+			<li>Raider</li>
+		</SpawnCategories>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Hulk</BodyTypeFemale>
+    <forcedTraits>
+      <Undergrounder>0</Undergrounder>
+    </forcedTraits>
+	</Backstory>
+
+	<Backstory>
+		<Title>coma child</Title>
+		<TitleShort>coma child</TitleShort>
+		<BaseDesc>A childhood accident put [PAWN_nameDef] into a coma. [PAWN_pronoun] didn’t wake up until [PAWN_pronoun] was in [PAWN_possessive] late teens. [PAWN_possessive] body never recovered from the years of inactivity, but people tend to take pity on [PAWN_objective] when they hear [PAWN_possessive] story.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<SkillGains>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>-2</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>-2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Trader</li>
+			<li>Slave</li>
+			<li>Raider</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<BodyTypeMale>Thin</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>pyromaniac</Title>
+		<TitleShort>pyro</TitleShort>
+		<BaseDesc>From an early age, [PAWN_nameDef] had an unhealthy fascination with fire. [PAWN_pronoun] would set refuse heaps ablaze and become so entranced by the flames [PAWN_pronoun] would absent-mindedly burn [PAWN_objective]self.\n\nOne day while playing with matches, [PAWN_pronoun] carelessly burned down [PAWN_possessive] home.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Firefighting</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Social</key>
+				<value>-3</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>-2</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<forcedTraits>
+			<Pyromaniac />
+		</forcedTraits>
+	</Backstory>
+
+	<Backstory>
+		<Title>mute</Title>
+		<titleShort>mute</titleShort>
+		<BaseDesc>[PAWN_nameDef] was greatly affected by a traumatic event early in [PAWN_possessive] life. For many years [PAWN_pronoun] refused to speak to people, preferring instead to play with [PAWN_possessive] household's numerous pets.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Social</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Animals</key>
+				<value>5</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>war refugee</Title>
+		<titleShort>refugee</titleShort>
+		<BaseDesc>War broke out in [PAWN_nameDef]'s home when [PAWN_pronoun] was a baby. [PAWN_possessive] parents fled with [PAWN_objective], seeking safety wherever they could find it. [PAWN_nameDef]'s earliest memories are of being taught how to defend [PAWN_objective]self.\n\nThe violence and destruction [PAWN_pronoun] witnessed left [PAWN_objective] scarred for life.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Violent</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>music lover</Title>
+		<titleShort>musician</titleShort>
+		<BaseDesc>As a child, [PAWN_nameDef] had a talent for playing musical instruments and singing. [PAWN_pronoun] was given expert training and loved to perform in recitals and concerts, though the lavish praise [PAWN_pronoun] received made [PAWN_objective] a little self-obsessed.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Social</key>
+				<value>-2</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>5</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>child star</Title>
+		<titleShort>star</titleShort>
+		<BaseDesc>[PAWN_nameDef] was well-known throughout [PAWN_possessive] homeworld as a child actor in films and TV shows. [PAWN_possessive] fame put [PAWN_objective] in contact with many different kinds of people, but also tended to get in the way of [PAWN_possessive] education.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>ManualDumb</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>-2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>child spy</Title>
+		<titleShort>spy</titleShort>
+		<BaseDesc>Children are often presumed innocent, and can be ideal as spies. [PAWN_nameDef] was trained in the art of infiltration and information-gathering when [PAWN_pronoun] was just nine years old.\n\n[PAWN_possessive] years behind enemy lines and the war-torn nature of [PAWN_possessive] homeworld meant [PAWN_pronoun] had limited opportunity for education.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>-3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>shopkeeper</Title>
+		<titleShort>shopkeep</titleShort>
+		<BaseDesc>[PAWN_nameDef]'s mother was often ill, and it fell to [PAWN_objective] to run the store which was their only source of income. [PAWN_pronoun] learned a little about the exotic artifacts which [PAWN_pronoun] sold, and a lot about the art of the deal.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>organ farm</Title>
+		<TitleShort>organ farm</TitleShort>
+		<BaseDesc>[PAWN_nameDef] was raised in an illegal underground organ farm. [PAWN_possessive] body was used to grow organic implants for wounded mercenaries. Though [PAWN_possessive] upbringing has left [PAWN_objective] haunted, it has also given [PAWN_objective] a unique understanding of human biology.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Violent</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Medicine</key>
+				<value>5</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+			<li>Slave</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+
+	<Backstory>
+		<Title>convent child</Title>
+		<titleShort>illicit</titleShort>
+		<BaseDesc>The child of an illicit affair, [PAWN_nameDef] was bought up by nuns in a medieval convent. [PAWN_pronoun] learned the value of hard work and submission, but was taught that technology is heretical.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Intellectual</li>
+			<li>Violent</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Construction</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>test subject</Title>
+		<titleShort>testee</titleShort>
+		<BaseDesc>On the most corrupt urbworlds, scientists without a moral compass commit unspeakable atrocities in the name of research. [PAWN_nameDef] was kept alone in a sealed facility from birth and subjected to a variety of behavioural experiments in an attempt to turn [PAWN_objective] into a perfect super-soldier.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Social</li>
+			<li>Caring</li>
+			<li>Firefighting</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>medical assistant</Title>
+		<titleShort>medic</titleShort>
+		<BaseDesc>[PAWN_nameDef] was born during a catastrophic war in which both sides used napalm extensively. [PAWN_pronoun] grew up helping [PAWN_possessive] parents in an infirmary, treating the cascade of horrific burns from the battlefields. [PAWN_pronoun] was left with a lifelong fear of fire.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Firefighting</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Medicine</key>
+				<value>5</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>cult child</Title>
+		<titleShort>cult kid</titleShort>
+		<BaseDesc>[PAWN_nameDef] was born into a powerful cult which shunned advanced technology and believed that all illness could be cured by cleansing the soul through sacred art.\n\nAfter [PAWN_possessive] first glimpse of the outside world, [PAWN_pronoun] decided to run away.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Intellectual</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Medicine</key>
+				<value>-3</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>5</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>wreckage explorer</Title>
+		<titleShort>explorer</titleShort>
+		<BaseDesc>Two generations before [PAWN_nameDef] was born, an apocalyptic war dragged [PAWN_possessive] home planet into anarchy. [PAWN_nameDef] was tasked with watching [PAWN_possessive] tribe's herds, but often shirked [PAWN_possessive] duties to go exploring the crashed warships scattered around the planet.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Animals</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>apocalypse survivor</Title>
+		<titleShort>survivor</titleShort>
+		<BaseDesc>[PAWN_nameDef] was born during a time of unrest on [PAWN_possessive] homeworld, as climate change threatened mass starvation and flooding. As [PAWN_pronoun] grew up the situation worsened - billions died and peaceful states descended into anarchy. [PAWN_nameDef] and [PAWN_possessive] parents did whatever they had to to survive.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>-3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>-3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>story writer</Title>
+		<titleShort>writer</titleShort>
+		<BaseDesc>As a child, [PAWN_nameDef] was addicted to reading. [PAWN_pronoun] would spend all day in [PAWN_possessive] local library with [PAWN_possessive] nose in a book. When budget cuts forced the library to close, [PAWN_nameDef] was distraught. [PAWN_pronoun] decided to fill the gap by writing [PAWN_possessive] own stories instead.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Civil</li>
+			<li>Raider</li>
+			<li>Slave</li>
+			<li>Trader</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+	</Backstory>
+
+</Backstories>

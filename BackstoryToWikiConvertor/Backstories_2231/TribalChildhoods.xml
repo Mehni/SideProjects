@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+
+	<Backstory>
+		<Title>tribe child</Title>
+		<titleShort>tribal</titleShort>
+		<BaseDesc>[PAWN_nameDef] grew up in the tribe, running around the village, moving with the muffalo herds, learning essential skills from [PAWN_possessive] parents.\n\n[PAWN_pronoun] never learned to read and never saw a machine that wasn't an ancient ruin.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<SkillGains>
+			<li>
+				<key>Plants</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>-3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>abandoned child</Title>
+		<TitleShort>abandoned</TitleShort>
+		<BaseDesc>[PAWN_nameDef] was born sickly. Thinking that [PAWN_pronoun] would only burden the tribe, [PAWN_possessive] parents left [PAWN_objective] out in the elements. Somehow, [PAWN_pronoun] survived.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>reclusive child</Title>
+		<TitleShort>reclusive</TitleShort>
+		<BaseDesc>[PAWN_nameDef] didn’t learn to speak until [PAWN_pronoun] was nearly 5 years old, and, even then, [PAWN_pronoun] preferred to keep to [PAWN_objective]self. When [PAWN_pronoun] was in [PAWN_possessive] early teens, [PAWN_pronoun] made a habit of wandering off from the village to live in the wilderness for weeks at a time.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Social</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>herder</Title>
+		<TitleShort>herder</TitleShort>
+		<BaseDesc>As a child, [PAWN_nameDef] tended the tribe’s muffalo herds, keeping them safe from predators and treating the sick. It was quiet work, but [PAWN_pronoun] enjoyed being away from people.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>
+					3
+				</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>
+					-2
+				</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>scavenger</Title>
+		<TitleShort>scavenger</TitleShort>
+		<BaseDesc>[PAWN_nameDef] spent [PAWN_possessive] childhood escaping grunt work to go digging through wrecks and ruins for treasures. [PAWN_possessive] natural curiosity got [PAWN_objective] into a lot of trouble, but it also yielded many interesting finds.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>ManualDumb</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Mining</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+	</Backstory>
+
+
+	<Backstory>
+		<Title>cave child</Title>
+		<TitleShort>cave child</TitleShort>
+		<BaseDesc>[PAWN_nameDef] grew up in a large and intricate cave complex that extended deep into a mountainside. [PAWN_pronoun] helped the adults maintain and improve the deep caves.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Mining</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+    <forcedTraits>
+      <Undergrounder>0</Undergrounder>
+    </forcedTraits>
+	</Backstory>
+
+	<Backstory>
+		<Title>sole survivor</Title>
+		<TitleShort>survivor</TitleShort>
+		<baseDesc>[PAWN_nameDef]’s entire tribe was wiped out in a raid. Though [PAWN_pronoun] was adopted by another group, [PAWN_pronoun] was emotionally scarred, and preferred to stay near home, cooking and tending crops.</baseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Violent</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>vengeful child</Title>
+		<TitleShort>vengeful</TitleShort>
+		<BaseDesc>As a child, [PAWN_nameDef] returned to [PAWN_possessive] village to find that it had been wiped out by bandits. [PAWN_pronoun] swore revenge on the attackers and began a violent rampage across the wilderness.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+			<li>Caring</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+	</Backstory>
+
+	<Backstory>
+		<Title>fire keeper</Title>
+		<TitleShort>firekeep</TitleShort>
+		<BaseDesc>[PAWN_nameDef] was responsible for keeping the tribe’s fire going. [PAWN_pronoun] took this responsibility very seriously.</BaseDesc>
+		<Slot>Childhood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+	</Backstory>
+
+</Backstories>

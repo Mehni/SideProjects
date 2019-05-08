@@ -1,0 +1,515 @@
+<noinclude>&larr; <small>[[Backstories]]</small></noinclude>
+{| {{STDT| sortable c_17}}
+!Title <br/> (Short Title) !!Description !!Skill Modifications !!Incapable of !!Civil !!Raider !!Slave !!Trader !!Traveler !!Tribal
+|-
+! Actor{{br}}(Actor)
+| [PAWN_nameDef] travelled [PAWN_possessive] homeworld with a company of actors, playing to packed theatres and loving audiences everywhere. [PAWN_pronoun] was a perfectionist, and made [PAWN_possessive] own props and costumes rather than use the ones [PAWN_pronoun] was given.
+| Social: {{+|8}}</br>Crafting: {{+|3}}
+| ManualDumb{{br}}
+| {{check}} || {{cross}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Architect{{br}}(Architect)
+| [PAWN_nameDef] designed and constructed buildings. On [PAWN_possessive] glitterworld home, most of the technical aspects of architecture were handled by an AI. This enabled [PAWN_objective] to push the artistic limits of the craft, but also meant [PAWN_pronoun] never had to get [PAWN_possessive] hands dirty at building sites.
+| Construction: {{+|5}}</br>Artistic: {{+|7}}</br>Crafting: {{--|3}}
+| ManualDumb{{br}}
+| {{check}} || {{cross}} || {{cross}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Ascetic priest{{br}}(Priest)
+| After taking a vow of silence, [PAWN_nameDef] joined a monastery on a peaceful backwater planet to spend [PAWN_possessive] days in quiet contemplation.{{br}}[PAWN_pronoun] found happiness growing vegetables in the garden and making cheese in the monastery cellars.
+| Plants: {{+|4}}</br>Medicine: {{+|2}}</br>Cooking: {{+|2}}
+| Violent{{br}}Social{{br}}
+| {{check}} || {{cross}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Assassin{{br}}(Assassin)
+| [PAWN_nameDef] was a professional assassin. [PAWN_pronoun] was cold, calculating, and made a good profit. In this business, an utter lack of empathy was an asset.
+| Melee: {{+|10}}</br>Shooting: {{+|10}}
+| Intellectual{{br}}ManualDumb{{br}}ManualSkilled{{br}}Social{{br}}Caring{{br}}
+| {{cross}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Bartender{{br}}(Barkeep)
+| [PAWN_nameDef] worked as a bartender on a seedy space station. The job entailed one part drink mixing, one part diplomacy, and one part head-bashing.
+| Social: {{+|4}}</br>Melee: {{+|2}}</br>Cooking: {{+|2}}
+| None
+| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{cross}}
+|-
+! Biosphere manager{{br}}(Botanist)
+| [PAWN_nameDef] lived on a peaceful glitterworld where all menial work was done by robots and people devoted themselves to leisure. [PAWN_pronoun] managed the plant and animal life of a sprawling park, where citizens came to admire the natural beauty.
+| Shooting: {{--|4}}</br>Animals: {{+|6}}</br>Plants: {{+|6}}
+| ManualDumb{{br}}Crafting{{br}}Cooking{{br}}
+| {{check}} || {{cross}} || {{cross}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Blacksmith{{br}}(Blacksmith)
+| As a smith on a medieval world, [PAWN_nameDef] gained a reputation for the high quality of [PAWN_possessive] work. [PAWN_pronoun] wasn't bad at using the swords [PAWN_pronoun] forged either.
+| Shooting: {{--|5}}</br>Melee: {{+|4}}</br>Crafting: {{+|6}}
+| Intellectual{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{cross}}
+|-
+! Bodyguard{{br}}(Bodyguard)
+| [PAWN_nameDef] found work on a midworld, protecting whoever paid [PAWN_objective] from harm. [PAWN_pronoun] gained proficiency in many different combat forms, and was known for [PAWN_possessive] ruthlessness against those who crossed [PAWN_objective].
+| Shooting: {{+|4}}</br>Melee: {{+|4}}
+| Social{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Castaway{{br}}(Castaway)
+| [PAWN_nameDef] was the only survivor of a ship crash on an unhabited animal world. For many years until [PAWN_possessive] rescue [PAWN_pronoun] scrounged an existence out of whatever [PAWN_pronoun] could find.{{br}}[PAWN_possessive] survival skills became razor-sharp, but spending so long alone severely dampened [PAWN_possessive] conversatial abilities.
+| Melee: {{+|5}}</br>Animals: {{+|3}}</br>Construction: {{+|4}}
+| Intellectual{{br}}Social{{br}}Artistic{{br}}
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Cave tender{{br}}(Tender)
+| While the others were out hunting and foraging, [PAWN_nameDef] would stay at home to cook and take care of the young and sick.
+| Cooking: {{+|4}}</br>Medicine: {{+|3}}</br>Crafting: {{+|2}}
+| None
+| {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{check}}
+|-
+! Caveworld illuminator{{br}}(Illuminator)
+| Among tunnel-dwellers, those with vision as strong as [PAWN_nameDef]’s are revered as sages. [PAWN_pronoun] would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger.
+| Mining: {{+|3}}</br>Social: {{+|2}}
+| None
+| {{check}} || {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Charity worker{{br}}(Altruist)
+| Glitterworlds are havens of safety and comfort for those lucky enough to live there, but [PAWN_nameDef] could not ignore nearby planets where people suffered in poverty. [PAWN_pronoun] spent [PAWN_possessive] working life appealing for donations and supporting those in need.
+| Social: {{+|6}}</br>Mining: {{--|3}}
+| Violent{{br}}
+| {{check}} || {{cross}} || {{cross}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Civil servant{{br}}(Clerk)
+| [PAWN_nameDef] worked as a low-ranking administrator for a moribund government bureaucracy. [PAWN_pronoun] is most at home filling out complicated paperwork and playing office politics.
+| Social: {{+|3}}</br>Intellectual: {{+|3}}</br>Construction: {{--|2}}
+| None
+| {{check}} || {{cross}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Colony settler{{br}}(Settler)
+| [PAWN_nameDef] was a settler on a new colony world.{{br}}Such a life requires a jack-of-all trades at basic hands-on tasks.
+| Construction: {{+|4}}</br>Plants: {{+|4}}</br>Mining: {{+|4}}
+| None
+| {{check}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Con artist{{br}}(Con artist)
+| [PAWN_nameDef] never created anything in [PAWN_possessive] life. [PAWN_pronoun] did, however, prove to be a natural at getting others to give [PAWN_objective] what they had created.
+| Social: {{+|10}}
+| Violent{{br}}
+| {{check}} || {{cross}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Conceptual artist{{br}}(Artist)
+| [PAWN_nameDef] was well-known in art circles on [PAWN_possessive] home world for [PAWN_possessive] unique and creative conceptual artworks.{{br}}Nobody was sure exactly what [PAWN_pronoun] was trying to communicate, but [PAWN_possessive] pieces were highly valued by collectors.
+| Artistic: {{+|8}}</br>Crafting: {{+|1}}
+| Social{{br}}Caring{{br}}Hauling{{br}}
+| {{check}} || {{cross}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Construction engineer{{br}}(Builder)
+| [PAWN_nameDef] was a construction worker on a midworld. [PAWN_pronoun] lead a team which built everything from office blocks to cathedrals.{{br}}[PAWN_possessive] busy job and numerous nearby fast-food outlets meant [PAWN_pronoun] never cooked for [PAWN_objective]self.
+| Construction: {{+|8}}</br>Plants: {{--|3}}
+| Intellectual{{br}}Cooking{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{cross}}
+|-
+! Counselor{{br}}(Counselor)
+| A terrifying trauma when [PAWN_nameDef] was a young adult caused [PAWN_objective] to develop a serious eating disorder. With counseling [PAWN_pronoun] learned to have a healthier relationship with food, and decided to put [PAWN_possessive] new skills to use helping others overcome their emotional problems.
+| Social: {{+|9}}
+| Cooking{{br}}
+| {{check}} || {{cross}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Courtesean{{br}}(Courtesean)
+| [PAWN_nameDef] was used for [PAWN_possessive] body by hundreds of customers in brothels on several planets. [PAWN_pronoun] gained some mental marks and a special kind of street smarts.
+| Social: {{+|8}}</br>Melee: {{+|3}}
+| ManualDumb{{br}}ManualSkilled{{br}}
+| {{cross}} || {{cross}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Deep space miner{{br}}(Miner)
+| [PAWN_nameDef] did the sweaty, grimy work of pulling metal out of asteroids on a deep space rig. [PAWN_pronoun] used [PAWN_possessive] hands-on industrial skills daily - and wasn't bad in a bar fight either.
+| Mining: {{+|7}}</br>Construction: {{+|3}}</br>Melee: {{+|2}}
+| None
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Defector{{br}}(Defector)
+| Early in [PAWN_possessive] adulthood, [PAWN_nameDef] decided to leave the oppressive dictatorship where [PAWN_pronoun] lived. [PAWN_possessive] defection was not well-received, and agents were sent out after [PAWN_objective].{{br}}[PAWN_pronoun] spent years on the run, treating [PAWN_possessive] own wounds so no doctor could betray [PAWN_objective]. The ordeal made [PAWN_objective] bitter and untrusting.
+| Shooting: {{+|5}}</br>Social: {{--|4}}</br>Medicine: {{+|3}}
+| Artistic{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{cross}}
+|-
+! Digger{{br}}(Digger)
+| [PAWN_nameDef] and [PAWN_possessive] tribe carved their home deep into the side of a mountain. [PAWN_nameDef] feels most at home picking through rock and shoring up cave walls.
+| Mining: {{+|5}}</br>Construction: {{+|2}}
+| None
+| {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{check}}
+|-
+! Drifter{{br}}(Drifter)
+| [PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] travelled often, taking up casual work wherever [PAWN_pronoun] found it.{{br}}[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested.
+| Cooking: {{+|3}}</br>Construction: {{+|3}}</br>Artistic: {{--|4}}
+| None
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Escaped convict{{br}}(Escapee)
+| [PAWN_nameDef] denies involvement in the crimes that brought about [PAWN_possessive] incarceration in a brutal penal colony. [PAWN_pronoun] escaped by tunnelling beneath the perimeter using modified cutlery.
+| Mining: {{+|4}}</br>Crafting: {{+|2}}
+| Caring{{br}}
+| {{check}} || {{check}} || {{cross}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Evangelist{{br}}(Evangelist)
+| As a youth, [PAWN_nameDef] experienced a religious awakening. [PAWN_pronoun] decided to spend the rest of [PAWN_possessive] life spreading the word of [PAWN_possessive] deity, the beauty of its culture, and its unusual medical tradition.
+| Social: {{+|4}}</br>Artistic: {{+|4}}</br>Medicine: {{--|3}}
+| None
+| {{check}} || {{cross}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Explosives expert{{br}}(Blaster)
+| [PAWN_nameDef] was an explosive engineer employed in mines. [PAWN_pronoun] took [PAWN_possessive] job very seriously and was well-versed in the technicalities - so much so that [PAWN_pronoun] refused to demean [PAWN_objective]self by helping with the clean-up once [PAWN_possessive] carefully-calculated explosion was complete.
+| Mining: {{+|5}}</br>Intellectual: {{+|5}}
+| ManualDumb{{br}}
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Factory worker{{br}}(Worker)
+| [PAWN_nameDef] did menial, unskilled work in an industrial-era factory. [PAWN_possessive] job also included caring for the mules and horses which transported goods around the city.
+| Animals: {{+|3}}</br>Construction: {{+|3}}</br>Crafting: {{+|2}}
+| Intellectual{{br}}Artistic{{br}}Cooking{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Gardener{{br}}(Gardener)
+| On industrial worlds, wealth concentrates in the hands of those who own the factories and sell the goods. [PAWN_nameDef] worked at the mansion of one such rich family, tending the lavish gardens as part of a team of servants.
+| Plants: {{+|8}}
+| Intellectual{{br}}Crafting{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{cross}}
+|-
+! Gatherer{{br}}(Gatherer)
+| [PAWN_nameDef] is a master gatherer. [PAWN_pronoun] can find food in the most barren of places using [PAWN_possessive] deep knowledge of plants, roots, and berries.
+| Plants: {{+|4}}
+| None
+| {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{check}}
+|-
+! Geologist{{br}}(Geologist)
+| [PAWN_nameDef] worked with miners and cave-diggers, identifying rock types and natural formations.{{br}}During [PAWN_possessive] years underground [PAWN_pronoun] also gained experience repairing drilling machines and other technical equipment.
+| Mining: {{+|8}}</br>Crafting: {{+|3}}
+| None
+| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{cross}}
+|-
+! Glitterworld empath{{br}}(Empath)
+| [PAWN_nameDef] had an amazing ability to relate to others and mediate conflict. [PAWN_pronoun] was selected to train as an empath. The training intensified [PAWN_possessive] natural abilities, but [PAWN_pronoun] became unable to harm others.
+| Social: {{+|8}}</br>Medicine: {{+|2}}
+| Violent{{br}}
+| {{check}} || {{cross}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Glitterworld officer{{br}}(Officer)
+| Though glitterworlds are peaceful places, they often remain prepared for war. [PAWN_nameDef]'s unit rarely saw any real action.{{br}}Though [PAWN_pronoun] pursued [PAWN_possessive] artistic hobbies, [PAWN_possessive] subordinates preferred to entertain themselves by brawling, so [PAWN_nameDef] got good at breaking up fights.
+| Melee: {{+|6}}</br>Artistic: {{+|4}}
+| ManualDumb{{br}}
+| {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Glitterworld surgeon{{br}}(Surgeon)
+| [PAWN_nameDef] worked as a surgeon on a world mostly free of disease and human suffering.{{br}}[PAWN_possessive] job mostly involved elaborate and creative cosmetic surgeries. [PAWN_pronoun] has a good understanding of human biology, but never had to remove a cancer — or a bullet.
+| Artistic: {{+|5}}</br>Medicine: {{+|3}}</br>Social: {{+|1}}
+| None
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Healer{{br}}(Healer)
+| After [PAWN_possessive] tribe’s elder healer was killed in a raid, [PAWN_nameDef] took on the role. [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies.
+| Medicine: {{+|4}}</br>Plants: {{+|3}}
+| None
+| {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{check}}
+|-
+! Herbalist{{br}}(Herbalist)
+| [PAWN_nameDef] lived in the forest near a village. Though many of the villagers feared [PAWN_objective], sick villagers would come to [PAWN_objective] to purchase salves and poultices made from the herbs [PAWN_pronoun] grew in [PAWN_possessive] garden. [PAWN_pronoun] was happy to help them — for a price.
+| Plants: {{+|4}}</br>Medicine: {{+|4}}</br>Social: {{--|2}}
+| None
+| {{check}} || {{check}} || {{cross}} || {{check}} || {{check}} || {{cross}}
+|-
+! Hermit{{br}}(Hermit)
+| Worn out by the pressures of social interaction, [PAWN_nameDef] left [PAWN_possessive] crowded midworld city to live a simple life in the wilderness. There, [PAWN_pronoun] spent [PAWN_possessive] days alone, tending [PAWN_possessive] garden and crafting the simple tools [PAWN_pronoun] needed to survive.
+| Plants: {{+|4}}</br>Crafting: {{+|3}}</br>Construction: {{+|1}}
+| Social{{br}}
+| {{cross}} || {{cross}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Hiveworld drone{{br}}(Drone)
+| [PAWN_nameDef] worked as a mindless construction drone in a massive hiveworld civilization. Though [PAWN_pronoun] is now freed from the brutal social experiments to which [PAWN_pronoun] was subjected, [PAWN_pronoun] remains incapable of creative thought and leadership.
+| Construction: {{+|5}}</br>Mining: {{+|4}}</br>Social: {{--|2}}
+| Artistic{{br}}Intellectual{{br}}
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! House servant{{br}}(Servant)
+| Early in [PAWN_possessive] adulthood, [PAWN_nameDef] was kidnapped and sold to wealthy aristocrats as a domestic servant.{{br}}[PAWN_pronoun] got to know the kitchens and basements of [PAWN_possessive] master's mansion well, but never did any work outside.
+| Cooking: {{+|4}}</br>Plants: {{--|3}}</br>Mining: {{--|3}}
+| Intellectual{{br}}
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Housemate{{br}}(Housemate)
+| As an adult, [PAWN_nameDef] kept house and cared for children while [PAWN_possessive] spouse worked.
+| Cooking: {{+|3}}</br>Medicine: {{+|3}}</br>Crafting: {{+|2}}
+| None
+| {{check}} || {{cross}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Human computer{{br}}(Computer)
+| [PAWN_nameDef] turned out to have an excellent memory and a gift for performing complex calculations in [PAWN_possessive] head. A midworld dictator decided to employ [PAWN_nameDef] to keep track of [PAWN_possessive] state's finances and expenditure, since electrical computers were too susceptible to hacking.
+| Shooting: {{+|3}}</br>Intellectual: {{+|7}}
+| Artistic{{br}}
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Illegal shipwright{{br}}(Shipwright)
+| There is a law that says that you're not allowed to put terawatt-range grasers on a cargo scow. Especially if you hide them under what looks like a communications dish for better ambush potential. [PAWN_nameDef] discovered that there is great profit to be made, however, from those who are uninterested in these laws.
+| Construction: {{+|7}}
+| None
+| {{cross}} || {{check}} || {{cross}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Inventor{{br}}(Inventor)
+| On [PAWN_possessive] homeworld, [PAWN_nameDef] worked as a moderately successful inventor. [PAWN_pronoun] developed several minor technologies.
+| Crafting: {{+|5}}</br>Intellectual: {{+|2}}
+| None
+| {{check}} || {{cross}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Jailbird{{br}}(Jailbird)
+| [PAWN_nameDef] spent most of [PAWN_possessive] life in prisons, where [PAWN_pronoun] was put to work in the kitchens. [PAWN_pronoun] had a habit of getting into fights, and developed an aggressive way of speaking.
+| Melee: {{+|5}}</br>Cooking: {{+|3}}
+| Social{{br}}Caring{{br}}
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Joywire artist{{br}}(Joywirer)
+| [PAWN_nameDef] worked in an urbworld lab developing cutting-edge joywire software to maximize user pleasure.{{br}}When the local government imposed harsh restrictions on joywire manufacturing, [PAWN_pronoun] began selling [PAWN_possessive] products on the black market.
+| Artistic: {{+|3}}</br>Intellectual: {{+|2}}</br>Medicine: {{+|2}}
+| ManualDumb{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{cross}}
+|-
+! Loner{{br}}(Loner)
+| Loner never much liked the tribal council or the yearly festivals. [PAWN_pronoun] prefers the open plain and the lonely whistle of wind through the rocks.{{br}}[PAWN_pronoun] visits [PAWN_possessive] tribe from time to time, but for the most part [PAWN_pronoun] takes care of [PAWN_objective]self using [PAWN_possessive] own survival skills.
+| Shooting: {{+|3}}</br>Melee: {{+|2}}</br>Plants: {{+|5}}</br>Construction: {{+|1}}
+| Social{{br}}
+| {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{check}}
+|-
+! Lore keeper{{br}}(Keeper)
+| [PAWN_nameDef] was one of a long line of lore keepers in [PAWN_possessive] tribe. Every night around the fire, [PAWN_pronoun] would pass on ancient knowledge and helpful wisdom through stories.
+| Intellectual: {{+|2}}</br>Social: {{+|3}}</br>Artistic: {{+|2}}
+| None
+| {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{check}}
+|-
+! Low-wage worker{{br}}(Grunt)
+| [PAWN_nameDef] worked a variety of casual jobs to support [PAWN_possessive] family, gaining a set of basic hands-on skills.
+| Cooking: {{+|4}}</br>Plants: {{+|3}}</br>Crafting: {{+|3}}
+| None
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Luddite rebel{{br}}(Luddite)
+| When the majority of people on [PAWN_possessive] world chose to give up their individuality and biological humanity to join together in an online hivemind, [PAWN_nameDef] joined a rebel faction that chose to forsake most technology.
+| Melee: {{+|3}}</br>Construction: {{+|3}}</br>Mining: {{+|2}}
+| Intellectual{{br}}Crafting{{br}}
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Machine collector{{br}}(Collector)
+| [PAWN_nameDef] was obsessed with old machines and arcane pieces of technology. [PAWN_pronoun] obtained them wherever [PAWN_pronoun] could, and loved taking them apart to see how they worked.{{br}}[PAWN_pronoun] had a habit of talking about [PAWN_possessive] collection long after people around [PAWN_objective] had stopped listening.
+| Social: {{--|3}}</br>Crafting: {{+|6}}</br>Intellectual: {{+|6}}
+| None
+| {{check}} || {{cross}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Mafia boss{{br}}(Boss)
+| [PAWN_nameDef] was a high-ranking member of an urbworld crime syndicate.{{br}}[PAWN_pronoun] bribed officials, maintained the loyalty of [PAWN_possessive] subordinates, and extracted overdue payments - by any means necessary.
+| Shooting: {{+|4}}</br>Melee: {{+|3}}</br>Social: {{+|4}}
+| ManualDumb{{br}}Caring{{br}}Cooking{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Mathematician{{br}}(Math prof)
+| [PAWN_nameDef] did mathematical research at a university.{{br}}[PAWN_pronoun] spent much of [PAWN_possessive] spare time immersed in shooting simulations, though [PAWN_pronoun] was frequently ridiculed by other players for [PAWN_possessive] terrible aim.
+| Shooting: {{--|3}}</br>Intellectual: {{+|8}}
+| ManualDumb{{br}}
+| {{check}} || {{cross}} || {{cross}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Medieval doctor{{br}}(Quack)
+| [PAWN_nameDef] worked as a doctor on a medieval planet. [PAWN_pronoun] firmly believes that most ailments can be cured with a little bloodletting.{{br}}[PAWN_pronoun] was also a master anaesthetist, developing a specialty technique that involved a heavy blow to the head.
+| Melee: {{+|6}}</br>Medicine: {{+|1}}
+| None
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Medieval farm oaf{{br}}(Oaf)
+| Tilling, hoeing, guiding ox carts, pushing wheelbarrows. Digging ditches, planting seeds, predicting the harvest.{{br}}Medieval-level farmers aren't educated in the usual sense, but they know a lot about growing plants without technology. That said, such a life leaves one essentially incapable of participating in intellectual, technology-driven activities.
+| Plants: {{+|8}}</br>Mining: {{+|3}}
+| Intellectual{{br}}
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Medieval lord{{br}}(Noble)
+| [PAWN_nameDef] was a lord on a preindustrial planet. [PAWN_pronoun] went to parties, managed the underlings, and even learned some swordplay.{{br}}[PAWN_possessive] soft hands did not hold a work tool during that entire time. [PAWN_pronoun] considers manual labor to be beneath [PAWN_objective].
+| Social: {{+|7}}</br>Melee: {{+|5}}</br>Shooting: {{+|5}}
+| ManualDumb{{br}}ManualSkilled{{br}}
+| {{check}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Medieval minstrel{{br}}(Minstrel)
+| [PAWN_nameDef] was a traveling entertainer on a medieval world.{{br}}[PAWN_pronoun] could always be found telling stories or singing songs, and is capable of protecting [PAWN_objective]self from the dangers of the road. However, [PAWN_pronoun] was always conspicuously absent whenever there was hard labour to be done.
+| Social: {{+|4}}</br>Artistic: {{+|3}}</br>Melee: {{+|2}}
+| ManualSkilled{{br}}Hauling{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Message carrier{{br}}(Messenger)
+| On a medieval world, the fastest way to send a message is to give it to somebody on a horse and hope they survive the journey. [PAWN_nameDef] was that somebody.
+| Melee: {{+|3}}</br>Animals: {{+|4}}
+| Intellectual{{br}}
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Midworld chef{{br}}(Chef)
+| [PAWN_nameDef] ran a high-class midworld restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, and infamous among kitchen workers for [PAWN_possessive] casual disdain for grunt work.
+| Cooking: {{+|6}}</br>Social: {{+|2}}
+| Cleaning{{br}}ManualDumb{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Military commissar{{br}}(Commissar)
+| [PAWN_nameDef] was an internal spymaster in an Imperial army battalion. [PAWN_pronoun] made sure that the men were loyal, and did not fall back unless ordered. This made [PAWN_objective] unpopular, but [PAWN_pronoun] gained great skill at detecting the slightest dishonesty.
+| Shooting: {{+|3}}
+| None
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Model{{br}}(Model)
+| [PAWN_nameDef] modelled clothes and jewellery for advertisers, and was also used as a physical blueprint for characters in virtual reality simulations.
+| Social: {{+|5}}</br>Artistic: {{+|6}}
+| ManualDumb{{br}}Intellectual{{br}}ManualSkilled{{br}}Caring{{br}}
+| {{check}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Muffalo shaman{{br}}(Shaman)
+| Because of [PAWN_possessive] quiet wisdom and great strength, [PAWN_nameDef] became the spiritual leader for a nomadic tribe that followed the herds of roaming muffalo.
+| Melee: {{+|5}}</br>Social: {{+|2}}
+| None
+| {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{check}}
+|-
+! Navy scientist{{br}}(Scientist)
+| Interstellar warfare is won by technology, so imperial navies are always on the peak of modern research. Even better, they have first access to archotechnological artifacts because they find them in space.{{br}}[PAWN_nameDef] worked in a navy lab.
+| Intellectual: {{+|8}}
+| None
+| {{check}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Novelist{{br}}(Novelist)
+| [PAWN_nameDef] lived on a glitterworld, penning wildly successful novels. [PAWN_pronoun] lived a carefree lifestyle, spending [PAWN_possessive] days writing and [PAWN_possessive] nights partying - and never did a day's manual labour in [PAWN_possessive] life.
+| Construction: {{--|5}}</br>Mining: {{--|5}}</br>Artistic: {{+|8}}
+| ManualDumb{{br}}Social{{br}}
+| {{check}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Nurse{{br}}(Nurse)
+| [PAWN_nameDef] worked in an industrial-era hospital, doing routine work such as changing bandages and taking temperatures.{{br}}It was a busy job, but [PAWN_pronoun] could always find time for a chat with a patient.
+| Social: {{+|4}}</br>Medicine: {{+|5}}
+| Violent{{br}}
+| {{check}} || {{cross}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Paramedic{{br}}(Paramedic)
+| [PAWN_nameDef]'s job was to respond rapidly to medical emergencies. [PAWN_pronoun] is used to dealing with severe injuries with only limited medical supplies.{{br}}[PAWN_pronoun] treated so many gunshot wounds over the years that even seeing a gun made [PAWN_objective] uncomfortable.
+| Shooting: {{--|5}}</br>Medicine: {{+|6}}
+| None
+| {{check}} || {{cross}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Pit brawler{{br}}(Brawler)
+| [PAWN_nameDef] was nine years old when [PAWN_pronoun] got in [PAWN_possessive] first fight. [PAWN_pronoun] won, but more important was the enjoyment of [PAWN_possessive] audience. Pit fighting turned out to be a lucrative career for those who could survive it. And it was even mostly legal.
+| Melee: {{+|8}}
+| Intellectual{{br}}Caring{{br}}
+| {{cross}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Psychiatric patient{{br}}(Patient)
+| [PAWN_nameDef] spent most of [PAWN_possessive] adult life in an insane asylum. [PAWN_possessive] industrial homeworld had a poor understanding of mental illness, and [PAWN_pronoun] was treated more like an animal than a person.{{br}}Though [PAWN_pronoun] eventually recovered and was released, [PAWN_possessive] experience dampened many of [PAWN_possessive] basic life skills.
+| Cooking: {{--|2}}</br>Crafting: {{--|2}}
+| Social{{br}}Caring{{br}}Violent{{br}}
+| {{check}} || {{cross}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Ranch owner{{br}}(Rancher)
+| [PAWN_nameDef] owned and operated a successful ranch where [PAWN_pronoun] raised animals for meat and wool.{{br}}[PAWN_pronoun] refused to do any dumb labour [PAWN_pronoun] could pay someone else to do for [PAWN_objective].
+| Animals: {{+|8}}</br>Cooking: {{--|4}}</br>Mining: {{--|4}}
+| ManualDumb{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{cross}}
+|-
+! Recruiter{{br}}(Recruiter)
+| [PAWN_nameDef] was part of an revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.{{br}}[PAWN_pronoun] travelled [PAWN_possessive] homeworld, judging the young people [PAWN_pronoun] met to determine if they might be suitable for training.
+| Melee: {{+|5}}</br>Social: {{+|5}}
+| Caring{{br}}
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Sailor{{br}}(Sailor)
+| [PAWN_nameDef] traversed the oceans on journeys of exploration, seeking out plant and animal specimens from exotic places, and occasionally fending off pirates. [PAWN_pronoun] loved the sea so much [PAWN_pronoun] refused to do all but the barest minimum of work on land, except to sell the treasures [PAWN_pronoun] collected.
+| Melee: {{+|4}}</br>Social: {{+|4}}</br>Animals: {{+|4}}
+| ManualSkilled{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{cross}}
+|-
+! Scout{{br}}(Scout)
+| Since [PAWN_possessive] tribe has made contact with local outlanders, [PAWN_nameDef] has contracted [PAWN_possessive] services out as a guide to the local area. Frequent contact with ancient relics has made [PAWN_objective] fairly comfortable with the old technology.
+| Shooting: {{+|2}}</br>Intellectual: {{+|2}}</br>Social: {{+|2}}
+| None
+| {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{check}}
+|-
+! Sculptor{{br}}(Sculptor)
+| [PAWN_nameDef] started off sculpting person-sized chunks of stone, but [PAWN_pronoun] soon began to think bigger. With the help of mining robots, [PAWN_pronoun] learned how to carve huge monuments out of cliffsides. Soon the nature parks of the glitterworld where [PAWN_pronoun] lived were full of giant rock figures.
+| Plants: {{--|4}}</br>Mining: {{+|4}}</br>Artistic: {{+|9}}
+| ManualDumb{{br}}Crafting{{br}}Cooking{{br}}
+| {{check}} || {{cross}} || {{cross}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Sheriff{{br}}(Sheriff)
+| [PAWN_nameDef] was the law enforcer in an isolated industrial town. [PAWN_pronoun] dealt with petty crime, dispute resolution, and the occasional drunken saloon shootout.
+| Shooting: {{+|4}}</br>Melee: {{+|4}}</br>Social: {{+|4}}
+| None
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Space marine{{br}}(Marine)
+| [PAWN_nameDef] was a warrior in an Imperial navy. [PAWN_possessive] job was to punch into enemy starships, gun down the crew, and capture the ship intact. And [PAWN_pronoun] was good at it.
+| Melee: {{+|5}}</br>Shooting: {{+|7}}
+| None
+| {{cross}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Space pirate{{br}}(Pirate)
+| Piracy appears everywhere that governments are weak and society spread thin. [PAWN_nameDef] was part of this age-old part of human existence, extorting and smashing peaceful trade ships for profit.
+| Melee: {{+|4}}</br>Shooting: {{+|4}}
+| None
+| {{cross}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Starship janitor{{br}}(Janitor)
+| While other passengers pass the years between star systems in cryptosleep sarcophagi, [PAWN_nameDef] had to wake up at periodic intervals to perform inspections, check the navigation systems, and to oil the mechanoids.
+| Construction: {{+|2}}</br>Crafting: {{+|3}}
+| None
+| {{check}} || {{cross}} || {{cross}} || {{cross}} || {{check}} || {{cross}}
+|-
+! Tactician{{br}}(Tactician)
+| [PAWN_nameDef] joined the space navy in an unstable system, fraught with large-scale interplanetary wars. [PAWN_pronoun] turned out to have a sharp mind for battle, and became adept at commanding large armies to great effect.
+| Shooting: {{+|4}}</br>Intellectual: {{+|4}}
+| Social{{br}}Artistic{{br}}
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Taster{{br}}(Taster)
+| As the taster for a medieval king, any dish served at the royal table had to be sampled first by [PAWN_nameDef]. [PAWN_pronoun] lived a decadent lifestyle at court, getting fat and doing very little work.
+| Cooking: {{+|7}}</br>Construction: {{--|4}}</br>Crafting: {{--|4}}
+| ManualDumb{{br}}
+| {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Taxonomist{{br}}(Taxonomist)
+| [PAWN_nameDef] travelled between star systems, studying and classifying the plant and animal life [PAWN_pronoun] found in the hopes of creating a complete catalogue.
+| Animals: {{+|5}}</br>Plants: {{+|5}}
+| Violent{{br}}
+| {{check}} || {{cross}} || {{check}} || {{check}} || {{check}} || {{cross}}
+|-
+! Teacher{{br}}(Teacher)
+| [PAWN_nameDef] was educated in the liberal arts and taught at a public school. [PAWN_pronoun] was widely knowledgeable and well-liked by [PAWN_possessive] students.
+| Intellectual: {{+|3}}</br>Social: {{+|4}}
+| None
+| {{check}} || {{cross}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Torturer{{br}}(Torturer)
+| Working for a tyrannical monarch on a medieval world, [PAWN_nameDef] earned a reputation as an expert in 'persuasion.' Any prisoner who went down into the dungeons left with no secrets - and with [PAWN_nameDef]'s smile scarred permanently into their nightmares.
+| Melee: {{+|6}}
+| Social{{br}}Caring{{br}}
+| {{check}} || {{check}} || {{check}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Urbworld entrepreneur{{br}}(Entrepreneur)
+| In the urbworlds, most suffer. But someone has to run the corporations.{{br}}[PAWN_nameDef] learned the skills of the trade - greasing palms and technical analysis. [PAWN_pronoun] is a sociointellectual machine.
+| Social: {{+|6}}</br>Intellectual: {{+|3}}
+| None
+| {{check}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! Veterinarian{{br}}(Vet)
+| [PAWN_nameDef] treated sick and injured animals for a living. Seeing their suffering affected [PAWN_possessive] stance on the practice of eating meat, and for many years [PAWN_pronoun] lived as a vegetarian, rejecting the meat-loving culinary tradition of [PAWN_possessive] homeworld.
+| Animals: {{+|4}}</br>Medicine: {{+|4}}</br>Cooking: {{--|4}}
+| None
+| {{check}} || {{cross}} || {{check}} || {{cross}} || {{cross}} || {{cross}}
+|-
+! VR designer{{br}}(Game dev)
+| [PAWN_nameDef] designed virtual reality simulations for glitterworld citizens. [PAWN_pronoun] paid great attention to the details of [PAWN_possessive] worlds, including learning all [PAWN_pronoun] could about plant life to make [PAWN_possessive] landscapes more realistic.
+| Construction: {{+|3}}</br>Plants: {{+|4}}</br>Artistic: {{+|5}}
+| ManualDumb{{br}}
+| {{check}} || {{cross}} || {{cross}} || {{check}} || {{cross}} || {{cross}}
+|-
+! Warrior{{br}}(Warrior)
+| [PAWN_nameDef] was a fearsome warrior, proficient with many weapons. [PAWN_pronoun] participated in many battles.
+| Melee: {{+|6}}</br>Shooting: {{+|2}}</br>Social: {{--|2}}
+| None
+| {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{check}}
+|-
+! Weaver{{br}}(Weaver)
+| [PAWN_nameDef] was an expert at working muffalo wool, plant fibres and natural dyes into beautiful clothing for [PAWN_possessive] kin. [PAWN_possessive] beautiful handicrafts were traded frequently between local tribes.
+| Crafting: {{+|5}}</br>Plants: {{+|2}}
+| None
+| {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{cross}} || {{check}}
+|-
+|}
