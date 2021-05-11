@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+
+  <!--============================== Industrial world ============================-->
+
+  <Backstory>
+    <Title>factory worker</Title>
+    <TitleShort>worker</TitleShort>
+    <BaseDesc>[PAWN_nameDef] did menial, unskilled work in an industrial factory. [PAWN_possessive] job also included caring for the mules and horses which transported the goods.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Intellectual</li>
+      <li>Artistic</li>
+      <li>Cooking</li>
+    </WorkDisables>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <SkillGains>
+      <li><key>Animals</key><value>3</value></li>
+      <li><key>Construction</key><value>3</value></li>
+      <li><key>Crafting</key><value>2</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </SpawnCategories>
+    <BodyTypeMale>Hulk</BodyTypeMale>
+    <BodyTypeFemale>Hulk</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>psychiatric patient</Title>
+    <TitleShort>patient</TitleShort>
+    <BaseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] adult life in an insane asylum. [PAWN_possessive] industrial homeworld had a poor understanding of mental illness, and [PAWN_pronoun] was treated more like an animal than a person.\n\nThough [PAWN_pronoun] eventually recovered and was released, [PAWN_possessive] experience dampened many of [PAWN_possessive] basic life skills.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Social</li>
+      <li>Caring</li>
+      <li>Violent</li>
+    </WorkDisables>
+    <SkillGains>
+      <li><key>Cooking</key><value>-2</value></li>
+      <li><key>Crafting</key><value>-2</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </SpawnCategories>
+    <BodyTypeMale>Thin</BodyTypeMale>
+    <BodyTypeFemale>Thin</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>human computer</Title>
+    <TitleShort>computer</TitleShort>
+    <BaseDesc>[PAWN_nameDef] turned out to have an excellent memory and a gift for performing complex calculations in [PAWN_possessive] head. An industrial-world dictator decided to employ [PAWN_nameDef] to keep track of [PAWN_possessive] state's finances and expenditure.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Artistic</li>
+    </WorkDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <SkillGains>
+      <li><key>Shooting</key><value>3</value></li>
+      <li><key>Intellectual</key><value>7</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </SpawnCategories>
+    <BodyTypeMale>Thin</BodyTypeMale>
+    <BodyTypeFemale>Thin</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>sheriff</Title>
+    <TitleShort>sheriff</TitleShort>
+    <BaseDesc>[PAWN_nameDef] was the law enforcer in an isolated industrial town. [PAWN_pronoun] dealt with petty crime, dispute resolution, and the occasional drunken saloon shootout.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <SkillGains>
+      <li><key>Shooting</key><value>4</value></li>
+      <li><key>Melee</key><value>4</value></li>
+      <li><key>Social</key><value>4</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+      <li>Pirate</li>
+    </SpawnCategories>
+    <BodyTypeMale>Fat</BodyTypeMale>
+    <BodyTypeFemale>Fat</BodyTypeFemale>
+  </Backstory>
+
+  <!--============================== Urbworld ============================-->
+  <!--City-covered planet-->
+
+  <Backstory>
+    <Title>urbworld entrepreneur</Title>
+    <TitleShort>entrepreneur</TitleShort>
+    <BaseDesc>In the urbworlds, most suffer. But someone has to run the corporations.\n\n[PAWN_nameDef] learned the skills of the trade - greasing palms and technical analysis. [PAWN_pronoun] is a sociointellectual machine.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <SkillGains>
+      <li><key>Social</key><value>6</value></li>
+      <li><key>Intellectual</key><value>3</value></li>
+    </SkillGains>
+    <spawnCategories><li>Offworld</li></spawnCategories>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <BodyTypeMale>Male</BodyTypeMale>
+    <BodyTypeFemale>Thin</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>joywire artist</Title>
+    <TitleShort>joywirer</TitleShort>
+    <BaseDesc>[PAWN_nameDef] worked in an urbworld lab developing cutting-edge joywire software to maximize user pleasure.\n\nWhen the local government imposed harsh restrictions on joywire manufacturing, [PAWN_pronoun] began selling [PAWN_possessive] products on the black market.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>ManualDumb</li>
+    </WorkDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <SkillGains>
+      <li><key>Artistic</key><value>3</value></li>
+      <li><key>Intellectual</key><value>2</value></li>
+      <li><key>Medicine</key><value>2</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </SpawnCategories>
+    <BodyTypeMale>Male</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>mafia boss</Title>
+    <TitleShort>boss</TitleShort>
+    <BaseDesc>[PAWN_nameDef] was a high-ranking member of an urbworld crime syndicate.\n\n[PAWN_pronoun] bribed officials, maintained the loyalty of [PAWN_possessive] subordinates, and extracted overdue payments - by any means necessary.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>ManualDumb</li>
+      <li>Caring</li>
+      <li>Cooking</li>
+    </WorkDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <SkillGains>
+      <li><key>Shooting</key><value>4</value></li>
+      <li><key>Melee</key><value>3</value></li>
+      <li><key>Social</key><value>4</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </SpawnCategories>
+    <BodyTypeMale>Hulk</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>urbworld drone</Title>
+    <TitleShort>drone</TitleShort>
+    <BaseDesc>[PAWN_nameDef] worked as a mindless construction drone on a massive urbworld. Though [PAWN_pronoun] is now freed from the brutal social experiments to which [PAWN_pronoun] was subjected, [PAWN_pronoun] remains incapable of creative thought and leadership.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Artistic</li>
+      <li>Intellectual</li>
+    </WorkDisables>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <SkillGains>
+      <li><key>Construction</key><value>5</value></li>
+      <li><key>Mining</key><value>4</value></li>
+      <li><key>Social</key><value>-2</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </SpawnCategories>
+    <BodyTypeMale>Hulk</BodyTypeMale>
+    <BodyTypeFemale>Hulk</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>urbworld rebel</Title>
+    <TitleShort>rebel</TitleShort>
+    <BaseDesc>Most of the people on [PAWN_nameDef]'s world gave up their individuality to join together in an online hivemind. [PAWN_nameDef] joined a rebel faction that rejected technology entirely.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Intellectual</li>
+      <li>Crafting</li>
+    </WorkDisables>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+    </requiredWorkTags>
+    <SkillGains>
+      <li><key>Melee</key><value>3</value></li>
+      <li><key>Construction</key><value>3</value></li>
+      <li><key>Mining</key><value>2</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </SpawnCategories>
+    <BodyTypeMale>Hulk</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <!--============================== Caveworld ============================-->
+  <!--Uninhabitable surface; society is underground-->
+
+  <Backstory>
+    <Title>caveworld illuminator</Title>
+    <TitleShort>illuminator</TitleShort>
+    <BaseDesc>Among tunnel-dwellers, those with vision as strong as [PAWN_nameDef]’s are revered as sages. [PAWN_pronoun] would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <requiredWorkTags>
+      <li>Mining</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <SkillGains>
+      <li><key>Mining</key><value>3</value></li>
+      <li><key>Social</key><value>2</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </SpawnCategories>
+    <BodyTypeMale>Male</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+    <forcedTraits>
+      <Undergrounder>0</Undergrounder>
+    </forcedTraits>
+  </Backstory>
+
+  <!--============================== Rimworld ============================-->
+
+  <Backstory>
+    <Title>colony settler</Title>
+    <TitleShort>settler</TitleShort>
+    <BaseDesc>[PAWN_nameDef] was a settler on a new colony world.\n\nSuch a life requires a jack-of-all trades at basic hands-on tasks.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <SkillGains>
+      <li><key>Construction</key><value>4</value></li>
+      <li><key>Plants</key><value>4</value></li>
+      <li><key>Mining</key><value>4</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Outlander</li>
+    </SpawnCategories>
+    <BodyTypeMale>Hulk</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+  </Backstory>
+
+  <!--============================== Toxic world ======================-->
+
+  <!-- none -->
+
+  <!--============================== Space ============================-->
+
+  <Backstory>
+    <Title>deep space miner</Title>
+    <TitleShort>miner</TitleShort>
+    <BaseDesc>[PAWN_nameDef] did the sweaty, grimy work of pulling metal out of asteroids on a deep space rig. [PAWN_pronoun] used [PAWN_possessive] hands-on industrial skills daily - and wasn't bad in a bar fight either.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <SkillGains>
+      <li><key>Mining</key><value>7</value></li>
+      <li><key>Construction</key><value>3</value></li>
+      <li><key>Melee</key><value>2</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </SpawnCategories>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <BodyTypeMale>Fat</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>starship janitor</Title>
+    <TitleShort>janitor</TitleShort>
+    <BaseDesc>While other passengers pass the years between star systems in cryptosleep sarcophagi, [PAWN_nameDef] had to wake up at periodic intervals to perform inspections, check the navigation systems, and to oil the mechanoids.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <SkillGains>
+      <li><key>Construction</key><value>2</value></li>
+      <li><key>Crafting</key><value>3</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>ImperialCommon</li>
+    </SpawnCategories>
+    <BodyTypeMale>Male</BodyTypeMale>
+    <BodyTypeFemale>Female</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>castaway</Title>
+    <TitleShort>castaway</TitleShort>
+    <BaseDesc>[PAWN_nameDef] was the only survivor of a ship crash on an unhabited animal world. For many years until [PAWN_possessive] rescue [PAWN_pronoun] scrounged an existence out of whatever [PAWN_pronoun] could find.\n\n[PAWN_possessive] survival skills became razor-sharp, but spending so long alone severely dampened [PAWN_possessive] conversatial abilities.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Intellectual</li>
+      <li>Social</li>
+      <li>Artistic</li>
+    </WorkDisables>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <SkillGains>
+      <li><key>Melee</key><value>5</value></li>
+      <li><key>Animals</key><value>3</value></li>
+      <li><key>Construction</key><value>4</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </SpawnCategories>
+    <BodyTypeMale>Hulk</BodyTypeMale>
+    <BodyTypeFemale>Hulk</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>taxonomist</Title>
+    <TitleShort>taxonomist</TitleShort>
+    <BaseDesc>[PAWN_nameDef] travelled between star systems, studying and classifying the plant and animal life [PAWN_pronoun] found in the hopes of creating a complete catalogue.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Violent</li>
+    </WorkDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <SkillGains>
+      <li><key>Animals</key><value>5</value></li>
+      <li><key>Plants</key><value>5</value></li>
+    </SkillGains>
+    <spawnCategories><li>Offworld</li></spawnCategories>
+    <BodyTypeMale>Thin</BodyTypeMale>
+    <BodyTypeFemale>Thin</BodyTypeFemale>
+  </Backstory>
+
+  <Backstory>
+    <Title>space tactician</Title>
+    <TitleShort>tactician</TitleShort>
+    <BaseDesc>[PAWN_nameDef] joined the space navy in an unstable system, fraught with large-scale interplanetary wars. [PAWN_pronoun] turned out to have a sharp mind for battle, and became adept at commanding combat units to great effect.</BaseDesc>
+    <Slot>Adulthood</Slot>
+    <WorkDisables>
+      <li>Social</li>
+      <li>Artistic</li>
+    </WorkDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <SkillGains>
+      <li><key>Shooting</key><value>4</value></li>
+      <li><key>Intellectual</key><value>4</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+      <li>ImperialCommon</li>
+    </SpawnCategories>
+    <BodyTypeMale>Thin</BodyTypeMale>
+    <BodyTypeFemale>Thin</BodyTypeFemale>
+  </Backstory>
+
+</Backstories>

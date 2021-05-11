@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+
+  <Backstory>
+    <Title>country lordling</Title>
+    <titleFemale>country lady</titleFemale>
+    <titleShort>field lord</titleShort>
+    <titleShortFemale>field lady</titleShortFemale>
+    <BaseDesc>[PAWN_nameDef] grew up in a noble family's manor in the outer country. [PAWN_possessive] early years were full of lessons in horseback riding, politics, and religion.
+\n[PAWN_nameDef] and [PAWN_possessive] friends found many ways to break the rules and have fun in the fields and forests.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <spawnCategories><li>ImperialRoyal</li></spawnCategories>
+    <SkillGains>
+      <li><key>Plants</key><value>2</value></li>
+      <li><key>Animals</key><value>3</value></li>
+      <li><key>Social</key><value>1</value></li>
+    </SkillGains>
+  </Backstory>
+
+  <Backstory>
+    <Title>urban lordling</Title>
+    <titleFemale>urban lady</titleFemale>
+    <titleShort>city lord</titleShort>
+    <titleShortFemale>city lady</titleShortFemale>
+    <BaseDesc>[PAWN_nameDef] was born to a royal house with a grand manor in a great city. [PAWN_pronoun] spent [PAWN_possessive] youth in lessons on politics.
+\nWhenever [PAWN_pronoun] could, [PAWN_pronoun] would escape with [PAWN_possessive] friends to explore the half-built substructure of the metropolis.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <spawnCategories><li>ImperialRoyal</li></spawnCategories>
+    <SkillGains>
+      <li><key>Construction</key><value>3</value></li>
+      <li><key>Social</key><value>2</value></li>
+    </SkillGains>
+  </Backstory>
+
+  <Backstory>
+    <Title>shipbound lordling</Title>
+    <titleFemale>shipbound lady</titleFemale>
+    <titleShort>ship lord</titleShort>
+    <titleShortFemale>ship lady</titleShortFemale>
+    <BaseDesc>[PAWN_nameDef]'s family held their power base on a grand, ancient starship. Born and raised on the ship, [PAWN_nameDef] learned all about the rigors of shipboard life, and the politics and methods of interstellar battle and orbital invasion.
+\n[PAWN_pronoun] learned to feel most at home with strong walls close on all sides and the gentle hiss of atmosphere regulators.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <spawnCategories><li>ImperialRoyal</li></spawnCategories>
+    <SkillGains>
+      <li><key>Shooting</key><value>2</value></li>
+      <li><key>Construction</key><value>2</value></li>
+    </SkillGains>
+    <forcedTraits>
+      <Undergrounder>0</Undergrounder>
+    </forcedTraits>
+  </Backstory>
+
+  <Backstory>
+    <Title>pampered lordling</Title>
+    <titleFemale>pampered princess</titleFemale>
+    <titleShort>pampered</titleShort>
+    <BaseDesc>[PAWN_nameDef]'s parents did not want another heir. Fearing a succession fight, they decided to neutralize [PAWN_objective] early.
+\nThey pampered [PAWN_nameDef] from birth, preventing [PAWN_objective] from developing the grit or knowledge necessary to be a threat to their favored son. [PAWN_nameDef] learned little more than how to manipulate the royal staff to get more food.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <spawnCategories><li>ImperialRoyal</li></spawnCategories>
+    <SkillGains>
+      <li><key>Social</key><value>2</value></li>
+    </SkillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+  </Backstory>
+
+  <Backstory>
+    <title>unwanted survivor</title>
+    <titleShort>survivor</titleShort>
+    <BaseDesc>[PAWN_nameDef]'s noble family did not want [PAWN_objective], but could not afford to be seen directly assassinating [PAWN_objective] either. They attempted to get [PAWN_objective] killed by assigning [PAWN_objective] dangerous training without proper protection at too young an age.
+\nAgainst all odds, [PAWN_nameDef] survived the jousting contests, horsewar matches, riverrun competitions and warzones. In the end, it only made [PAWN_objective] stronger.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <SpawnCategories>
+      <li>ImperialRoyal</li>
+      <li>ImperialFighter</li>
+    </SpawnCategories>
+    <SkillGains>
+      <li><key>Melee</key><value>3</value></li>
+      <li><key>Shooting</key><value>2</value></li>
+      <li><key>Cooking</key><value>2</value></li>
+      <li><key>Medicine</key><value>2</value></li>
+    </SkillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <forcedTraits>
+      <Tough>0</Tough>
+      <Nerves>2</Nerves>
+    </forcedTraits>
+  </Backstory>
+
+</Backstories>

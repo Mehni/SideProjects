@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+
+  <Backstory>
+    <Title>medieval slave</Title>
+    <titleShort>slave</titleShort>
+    <BaseDesc>[PAWN_nameDef] grew up pulling carts and digging holes on a medieval world. Simple manual labor is [PAWN_possessive] oldest companion - along with the master's lash.\n\n[PAWN_pronoun] didn't learn to read until age nine.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <SkillGains>
+      <li><key>Plants</key><value>2</value></li>
+      <li><key>Construction</key><value>2</value></li>
+      <li><key>Mining</key><value>2</value></li>
+      <li><key>Intellectual</key><value>-3</value></li>
+    </SkillGains>
+    <SpawnCategories>
+      <li>Offworld</li>
+      <li>Pirate</li>
+    </SpawnCategories>
+  </Backstory>
+
+  <Backstory>
+    <Title>medieval lordling</Title>
+    <titleFemale>medieval lady</titleFemale>
+    <titleShort>lordling</titleShort>
+    <titleShortFemale>lady</titleShortFemale>
+    <BaseDesc>[PAWN_nameDef] was a minor noble in an old kingdom on a medieval world. [PAWN_pronoun] grew up in a manor made of stone, served by bowing lowerclassmen.\n\nSuch a life teaches no technical skills and instils a lifelong aversion to manual labor - but [PAWN_nameDef] learned early the ways of social manipulation.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <spawnCategories><li>Offworld</li></spawnCategories>
+    <SkillGains>
+      <li><key>Social</key><value>4</value></li>
+      <li><key>Construction</key><value>-1</value></li>
+      <li><key>Mining</key><value>-1</value></li>
+      <li><key>Plants</key><value>-1</value></li>
+    </SkillGains>
+    <WorkDisables>
+      <li>ManualDumb</li>
+    </WorkDisables>
+  </Backstory>
+
+  <Backstory>
+    <Title>convent child</Title>
+    <titleShort>illicit</titleShort>
+    <BaseDesc>The child of an illicit affair, [PAWN_nameDef] was bought up by nuns in a medieval convent. [PAWN_pronoun] learned the value of hard work and submission, but was taught that technology is heretical.</BaseDesc>
+    <Slot>Childhood</Slot>
+    <WorkDisables>
+      <li>Intellectual</li>
+      <li>Violent</li>
+    </WorkDisables>
+    <SkillGains>
+      <li><key>Construction</key><value>3</value></li>
+      <li><key>Plants</key><value>3</value></li>
+    </SkillGains>
+    <spawnCategories><li>Offworld</li></spawnCategories>
+  </Backstory>
+
+</Backstories>

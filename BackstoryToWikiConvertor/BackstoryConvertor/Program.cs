@@ -27,8 +27,8 @@ namespace BackstoryConvertor
                 List<XElement> adulthoods = new List<XElement>();
                 List<XElement> childhoods = new List<XElement>();
 
-                adulthoods = PopulateHoods(workingDir, adulthoods, "*dulthoods.xml");
-                childhoods = PopulateHoods(workingDir, childhoods, "*hildhoods.xml");
+                adulthoods = PopulateHoods(workingDir, adulthoods, "*_Adult.xml");
+                childhoods = PopulateHoods(workingDir, childhoods, "*_Child.xml");
 
                 TurnBackStoriesIntoTables(adulthoods, workingDir + Path.DirectorySeparatorChar + "adulthoods");
                 TurnBackStoriesIntoTables(childhoods, workingDir + Path.DirectorySeparatorChar + "childhoods");
@@ -62,7 +62,7 @@ namespace BackstoryConvertor
         }
 
         private static List<XElement> PopulateHoodsBackers(string workingDir, string backstoryType)
-            => XElement.Load(workingDir + Path.DirectorySeparatorChar + "rimworld_creations.xml").Descendants("PawnBio").Descendants(backstoryType).Concat(
+            => XElement.Load(workingDir + Path.DirectorySeparatorChar + "backstories.xml").Descendants("PawnBio").Descendants(backstoryType).Concat(
                XElement.Load(workingDir + Path.DirectorySeparatorChar + "TynanCustom.xml").Descendants("PawnBio").Descendants(backstoryType))
                 .ToList();
 
@@ -175,6 +175,7 @@ namespace BackstoryConvertor
             ?? xElement.Element("TitleShort")?.Value?.CapitaliseFirst();
 
         private static string Title(XElement xElement)
-            => xElement.Element("Title").Value.CapitaliseFirst();
+            => xElement.Element("Title")?.Value?.CapitaliseFirst()
+            ?? xElement.Element("title")?.Value?.CapitaliseFirst();
     }
 }
